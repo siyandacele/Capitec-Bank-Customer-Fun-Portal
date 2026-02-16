@@ -1,0 +1,71 @@
+{
+  "name": "capitecbank-test-projects",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.3.0",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-popover": "^1.1.15",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@reduxjs/toolkit": "^2.11.2",
+    "@tanstack/react-query": "^5.17.19",
+    "@tanstack/react-query-devtools": "^5.17.19",
+    "@tanstack/react-router": "^1.15.15",
+    "bootstrap": "^5.3.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "formik": "^2.4.9",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.307.0",
+    "msw": "^2.12.10",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.10",
+    "react-day-picker": "^9.13.2",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-redux": "^9.2.0",
+    "recharts": "^2.15.4",
+    "tailwind-merge": "^2.6.1",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tanstack/router-devtools": "^1.15.15",
+    "@tanstack/router-vite-plugin": "^1.15.15",
+    "@types/leaflet": "^1.9.8",
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "@vitejs/plugin-react": "5.1.4",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.33",
+    "prettier": "3.8.1",
+    "sass": "^1.70.0",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~5.9.3",
+    "vite": "7.3.1",
+    "vite-node": "5.3.0",
+    "vitest": "4.0.18"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}
