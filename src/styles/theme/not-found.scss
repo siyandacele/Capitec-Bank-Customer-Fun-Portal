@@ -1,0 +1,18 @@
+@import '../utils/Colours.scss';
+@import '../utils/Fonts.scss';
+
+.not-found {
+  &__status {
+    font-family: $NunitoSans;
+    font-size: 8rem;
+    font-weight: 800;
+    line-height: 1;
+    color: $BRIGHT_BLUE;
+    opacity: 0.15;
+    margin-bottom: -16px;
+
+    @media (max-width: 576px) {
+      font-size: 5rem;
+    }
+  }
+}

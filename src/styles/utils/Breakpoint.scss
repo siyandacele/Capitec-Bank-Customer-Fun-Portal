@@ -1,0 +1,24 @@
+@mixin Breakpoint($max, $min: "") {
+    @if ($min != "") {
+        @media only screen and (min-width: $min) and (max-width: $max) {
+            @content;
+        }
+    } @else {
+        @media only screen and (max-width: $max) {
+            @content;
+        }
+    }
+}
+
+// https://getbootstrap.com/docs/4.6/layout/overview/#responsive
+@mixin MobileFirst($width) {
+    @media only screen and (min-width: $width) {
+        @content;
+    }
+}
+
+@mixin DesktopFirst($width) {
+    @media only screen and (max-width: $width) {
+        @content;
+    }
+}

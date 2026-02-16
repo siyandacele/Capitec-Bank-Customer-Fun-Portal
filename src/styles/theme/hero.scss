@@ -1,0 +1,44 @@
+@import '../utils/Globals';
+@import '../utils/Breakpoint';
+@import '../utils/ScreenSizes';
+@import '../utils/Helpers';
+
+.hero-section-space {
+  .hero-landing-narrow-content {
+    padding-top: 70px;
+
+    @include Breakpoint($MEDIUM) {
+      padding-top: 30px;
+    }
+
+    &__header-content {
+      h1 {
+        @include ellipsis-multiline(3);
+      }
+
+      p {
+        @include ellipsis-multiline(6);
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+
+      .hero-social-icons-wrapper {
+        margin-top: 40px;
+      }
+
+      .button--v2-group {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+//TODO: Create a class for overwriting margin-bottom for all hero sections, in stead of inline style in View at the moment
+
+.hero-section-space {
+  margin-bottom: $UNIT * 5;
+
+  @include Breakpoint($MEDIUM) {
+    margin-bottom: 50px !important;
+  }
+}

@@ -1,0 +1,38 @@
+@import './Fonts.scss';
+
+@mixin paragraph-base {
+  font-family: $NunitoSans;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin paragraph-default {
+  @include paragraph-base;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@mixin paragraph-large {
+  @include paragraph-base;
+  font-size: 20px;
+  line-height: 32px;
+
+  @include MobileFirst($grid-breakpoint-lg) {
+    font-size: 24px;
+    line-height: 38px;
+  }
+}
+
+@mixin paragraph-small {
+  @include paragraph-base;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+}
+
+@mixin paragraph-tiny {
+  @include paragraph-base;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}

@@ -1,0 +1,221 @@
+// ==========================
+// CORPORATE IDENTITY COLOURS
+// ==========================
+
+$DARK_BLUE: #0033a0;
+$BRIGHT_BLUE: #2f70ef;
+$STRONG_BLUE: #2259d0;
+$MOSTLY_DESATURATED_DARK_BLUE: #5d737e;
+$VIVID_RED: #e61414;
+$WHITE: #ffffff;
+$VIVID_PINK: #df1690; // https://www.colorhexa.com/df1690
+$FLUORESCENT_PINK: #fb1497; // https://icolorpalette.com/color?q=fb1497
+$DARK_PINK: #a7047a; // https://www.colorhexa.com/a7047a
+$DARK_VIOLET: #4111a4; // https://www.colorhexa.com/4111a4
+$MOSTLY_WHITE: #f8f8f8; // https://www.colorhexa.com/f8f8f8
+$LIGHT_GREY: #c8c8c8; // https://www.colorhexa.com/c8c8c8
+$LIGHT_DARK_GREY: #979797; // https://www.colorhexa.com/979797
+$PURE_ORANGE: #ff5f00; // https://www.colorhexa.com/ff5f00
+$VERY_DARK_BLUE: #001847; // https://www.colorhexa.com/001847
+$TITANIUM_WHITE: #e3e3e3; // https://icolorpalette.com/color?q=e3e3e3
+$GREEN_ENVY: #70af00; // https://icolorpalette.com/color?q=70af00
+$HONG_KONG_TAXI: #a5132a; // https://icolorpalette.com/color?q=a5132a
+$ATHENS_GREY: #dcdddd; // https://www.colorhexa.com/dcdddd
+
+// BUTTONS
+$BUTTON_PRIMARY: $BRIGHT_BLUE;
+$BUTTON_HOVER: $STRONG_BLUE;
+
+// FOOTER
+$FOOTER_BANNER: $BRIGHT_BLUE;
+
+// TRANSACT
+$CERULEAN: #009de0;
+$PICTON_BLUE: #40b6e8;
+$PACIFIC_BLUE: #0091ce;
+$LOCHMARA: #0083bb;
+$TRANSACT_PRIMARY: $BRIGHT_BLUE;
+$TRANSACT_SECONDARY: #0183bb;
+$CARD_BACKGROUND: #f9f9f9;
+
+// SAVE
+$REGAL_BLUE: #00486d;
+$ASTRONAUT_BLUE: #003f5f;
+$PRESSIAN_BLUE: #003652;
+$SAVE_PRIMARY: $DARK_BLUE;
+$SAVE_SECONDARY: $PRESSIAN_BLUE;
+
+// CREDIT
+$FLUSH_MAHOGANY: #c83c37;
+$WELL_READ: #b73632;
+$WELL_READ_SECONDARY: #a42f2c;
+$CREDIT_PRIMARY: $VIVID_RED;
+$CREDIT_SECONDARY: $WELL_READ_SECONDARY;
+$CREDIT_RED: #e61414;
+
+// INSURE
+$GUN_METAL: #4d5c65;
+$NEVADA: #5d737e;
+$RIVER_BED: #4e6066;
+$BOULDER: #7c7c7c;
+$HIT_GRAY: #a9b4b9;
+$MERCURY: #e1e1e1;
+$WILD_SAND: #f5f5f5;
+$INSURE_PRIMARY: $MOSTLY_DESATURATED_DARK_BLUE;
+$INSURE_SECONDARY: $NEVADA;
+
+// SECONDARY
+$OLIVE_DRAB: #6b9520;
+$HOT_CINNAMON: #d4781c;
+
+// SOCIAL MEDIA
+$DODGER_BLUE: #1da1f2;
+$CHAMBRAY: #3b5998;
+$DEEP_CERULEAN: #0077b5;
+$MOUNTAIN_MEADOW: #25d366;
+
+// BLACK
+$BLACK: #000;
+$PRIMARY_BLACK: #383633;
+$SECONDARY_BLACK: #222221;
+
+// GREY
+$SECONDARY_GREY: #adb3ba;
+$FRENCH_GREY: #ccccd2;
+$DARK_GREY: #3a3a3a;
+$VERY_DARK_GREY: #616161; // https://www.colorhexa.com/616161
+$VERY_LIGHT_GREY: #e5e5e5;
+$VERY_LIGHT_GRAY: #efefef; // https://www.colorhexa.com/efefef
+$SOFT_GREY: #e5e5e5;
+$FIFTIETH_SHADE_OF_GREY: #4e4e4e; // https://icolorpalette.com/color?q=4e4e4e
+$GARETH_GREY: #ebebeb; // https://www.colorhexa.com/ebebeb
+$WEATHERED_STONE: #c4c4c4; // https://icolorpalette.com/color?q=c4c4c4
+$PETREL_BLUE_GREY: #a1acba; // https://icolorpalette.com/color?q=A1ACBA
+
+// ACCENTS
+// $GREEN: #72b52b;
+$MOSSY_GREEN: #6b9520;
+$PURPLE: #aa1580;
+$ORANGE: #f39000;
+$ALERT_ORANGE: #d4781c;
+$POSITIVE: $MOSSY_GREEN;
+$WARN: $FLUSH_MAHOGANY;
+$ALERT: $ALERT_ORANGE;
+
+// NEUTRALS
+$BACKGROUND: #f8f8ff;
+$MENU_TAB: #f2f3f4;
+$NEUTRAL_PINK: #f9f9f9;
+$NEUTRAL_WHITE: #f0f0f0;
+$WHISPER: #ededed;
+$WHISPER_GRADIENT: linear-gradient(
+  74deg,
+  $WHISPER 0.49%,
+  rgba($color: $MOSTLY_WHITE, $alpha: 0) 100%
+);
+
+// TEXT
+$TEXT_PRIMARY: $DARK_GREY;
+$TEXT_LIGHT: $WHITE;
+
+// THEMED TEXT CARD
+$SUNSET_GRADIENT: linear-gradient(
+  201deg,
+  #FF4310 0%,
+  #F91317 100.54%
+);
+
+// BRAND RELATED
+$LOGO: #00466e;
+
+// LIVE BETTER
+$LB_GRADIENT: linear-gradient(
+  to right,
+  #00daff,
+  #1629da 19%,
+  #1629da 48%,
+  #fc0067 91%,
+  #ff1234
+);
+$LB_GRADIENT_ALT: linear-gradient(
+  45deg,
+  #00daff -1%,
+  #1629da 18%,
+  #1629da 47%,
+  #fc0067 89%,
+  #ff1234 99%
+);
+$LB_SHADOW: rgba(23, 42, 219, 0.3);
+$LB_VIBRANT_BLUE: #1629da;
+$LB_VIBRANT_RED: #fc0067;
+$LB_PURPLE: #b518b5;
+$LB_BLUE: #008cff;
+$LB_TURQUOISE: #00ffdd;
+$LB_DISCOUNT: #00cdc2;
+$LB_CASH_BACK: #4f1db6;
+$LB_BANK_BETTER: #1629da;
+$LB_SAVE_BETTER: #4f1db6;
+$LB_SPEND_BETTER: #df0060;
+$LB_MONEY_UP_GRADIENT: linear-gradient(
+  75deg,
+  #00daff 0%,
+  #1629da 23%,
+  #1629da 49%,
+  #fc0067 76%,
+  #ff4310 90%,
+  #fee400 100%
+);
+
+// GLOBAL ONE
+$GLOBALONE: #f7f7f7;
+$GLOBALONE_GRADIENT: linear-gradient(
+  124deg,
+  #fff 50%,
+  #f0f0f0
+  100%
+);
+
+// BACKGROUND COLOURS - USED WITH BACKGROUND UTILITY CLASSES
+// GLOBAL BACKGROUND COLOuRS
+$BG_LIGHT_PINK: #f3f3f3;
+$BG_WHITE: $WHITE;
+$BG_OFF_WHITE: $WILD_SAND;
+$BG_LIGHT_GREY: $MERCURY;
+$BG_DARK_GREY: $BOULDER;
+$BG_WARM_BLACK: $DARK_GREY;
+$BG_CARD_ICON: #ededed;
+$BG_GHOST_WHITE: #f8f8f8;
+
+// LIVE BETTER BG COLOURS
+$BG_LB_VIBRANT_BLUE: $LB_VIBRANT_BLUE;
+$BG_LB_VIBRANT_RED: $LB_VIBRANT_RED;
+$BG_LB_PURPLE: $LB_PURPLE;
+$BG_LB_BLUE: $LB_BLUE;
+$BG_LB_TURQUOISE: $LB_TURQUOISE;
+
+// GLOBAL BIZ
+$GLOBALBIZ_BG: $DARK_GREY;
+$GLOBALBIZ_SECONDARY: #525252;
+$GLOBALBIZ_TABLE_BG_LIGHTEST: #f9fafa;
+$GLOBALBIZ_NAV_BG: #1E313E;
+
+// ==================
+// ADDITIONAL COLOURS
+// ==================
+$ALTO: #d8d8d8;
+$CADET-BLUE: #b2bac4;
+$BLACK: #000;
+$SEARCH_FOCUS: #ced4da;
+$TILE_CONTENT: #f1f1f1;
+$VERY_LIGHT_PINK: #e3e3e3;
+$SHADOW: rgba(187, 187, 187, 0.6);
+$SHADOW_ALT: rgba(103, 156, 178, 0.4);
+$SEARCH_RESULTS_CARD: rgba(0, 157, 224, 0.1);
+$TABLE_ALTERNATE_GREY: #43545a;
+$SEARCH_CARD_BG: rgba(0, 157, 224, 0.1);
+$SEARCH_RELEVANT_TEXT: rgba(78, 96, 102, 0.5);
+$CHIP_BORDER: #cccfd0;
+$CHIP_HOVER: rgba(0, 157, 224, 0.1);
+$DEFAULT_SUBNAV_BG: rgba(247, 247, 247, 0.8);
+// $UNDERWRITTEN_BANNER_TEAL: #63acb3;
+// $UNDERWRITTEN_BANNER_GREY: $NEVADA;

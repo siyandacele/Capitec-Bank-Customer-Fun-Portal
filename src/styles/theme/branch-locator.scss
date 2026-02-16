@@ -1,0 +1,443 @@
+@import '../utils/Colours.scss';
+
+// Branch Locator Layout
+.branch-locator {
+  &__loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 0;
+    text-align: center;
+  }
+
+  &__loading-text {
+    margin-top: 16px;
+    color: $BOULDER;
+  }
+
+  &__error {
+    padding: 24px 0;
+  }
+
+  &__error-text {
+    color: $CREDIT_RED;
+    margin: 0;
+  }
+}
+
+// Search Section
+.branch-search {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  &__input-wrapper {
+    position: relative;
+  }
+
+  &__icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    color: $BOULDER;
+    pointer-events: none;
+  }
+
+  &__input {
+    padding-left: 36px !important;
+  }
+
+  &__count {
+    font-size: 0.75rem;
+    color: $BOULDER;
+    margin: 0;
+  }
+}
+
+// Filter Tabs
+.branch-filter {
+  display: flex;
+  gap: 4px;
+  background-color: $WILD_SAND;
+  border-radius: 8px;
+  padding: 4px;
+
+  &__tab {
+    flex: 1;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: $BOULDER;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      color: $DARK_GREY;
+    }
+
+    &--active {
+      background-color: $WHITE;
+      color: $BRIGHT_BLUE;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+// Branch List
+.branch-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 4px;
+
+  // Scrollbar
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $WILD_SAND;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $MERCURY;
+    border-radius: 4px;
+  }
+
+  &__empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0;
+    color: $BOULDER;
+    text-align: center;
+  }
+
+  &__empty-icon {
+    width: 48px;
+    height: 48px;
+    opacity: 0.5;
+    margin-bottom: 8px;
+  }
+}
+
+// Branch Card (in list)
+.branch-card {
+  border: 1px solid $MERCURY;
+  border-radius: 10px;
+  padding: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-color: $LIGHT_GREY;
+  }
+
+  &--selected {
+    border-color: $BRIGHT_BLUE;
+    box-shadow: 0 0 0 1px $BRIGHT_BLUE;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  &__type-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    background-color: $WILD_SAND;
+    color: $BOULDER;
+    flex-shrink: 0;
+  }
+
+  &__name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $DARK_GREY;
+    margin: 0;
+    flex: 1;
+  }
+
+  &__type-badge {
+    font-size: 0.6875rem;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    flex-shrink: 0;
+
+    &--branch {
+      background-color: rgba($BRIGHT_BLUE, 0.1);
+      color: $BRIGHT_BLUE;
+    }
+
+    &--atm {
+      background-color: rgba($DARK_VIOLET, 0.1);
+      color: $DARK_VIOLET;
+    }
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+
+  &__detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 0.8125rem;
+    color: $VERY_DARK_GREY;
+    line-height: 1.4;
+  }
+
+  &__detail-icon {
+    width: 14px;
+    height: 14px;
+    margin-top: 2px;
+    flex-shrink: 0;
+    color: $BOULDER;
+  }
+
+  &__services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 10px;
+  }
+
+  &__service-badge {
+    font-size: 0.6875rem;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    background-color: $WILD_SAND;
+    color: $VERY_DARK_GREY;
+  }
+
+  &__map-btn {
+    width: 100%;
+    font-size: 0.8125rem;
+    padding: 6px 12px;
+  }
+}
+
+// Map area
+.branch-map {
+  &__card-content {
+    padding: 0 !important;
+  }
+}
+
+// Map popups
+.branch-popup {
+  &__name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $DARK_GREY;
+    margin: 0 0 8px;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 0.75rem;
+    color: $VERY_DARK_GREY;
+    line-height: 1.3;
+
+    svg {
+      margin-top: 2px;
+      flex-shrink: 0;
+      color: $BOULDER;
+    }
+  }
+}
+
+// Selected Branch Detail Card
+.branch-detail {
+  margin-top: 16px;
+
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  &__info-icon {
+    width: 20px;
+    height: 20px;
+    color: $BRIGHT_BLUE;
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+
+  &__info-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $DARK_GREY;
+    margin: 0;
+  }
+
+  &__info-value {
+    font-size: 0.8125rem;
+    color: $VERY_DARK_GREY;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  &__services-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $DARK_GREY;
+    margin: 0 0 8px;
+  }
+
+  &__services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  &__service-badge {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    background-color: rgba($BRIGHT_BLUE, 0.08);
+    color: $BRIGHT_BLUE;
+  }
+}
+
+// Popular Times Chart
+.branch-popular {
+  border-top: 1px solid $MERCURY;
+  padding-top: 16px;
+
+  &__loading {
+    font-size: 0.8125rem;
+    color: $BOULDER;
+    padding: 12px 0;
+  }
+
+  &__title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $DARK_GREY;
+    margin: 0 0 12px;
+  }
+
+  &__chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 80px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  &__bar-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+  }
+
+  &__bar {
+    width: 100%;
+    min-height: 4px;
+    border-radius: 3px 3px 0 0;
+    transition: height 0.3s ease;
+
+    &--quiet {
+      background-color: rgba($MOSSY_GREEN, 0.4);
+    }
+
+    &--moderate {
+      background-color: rgba($PURE_ORANGE, 0.5);
+    }
+
+    &--busy {
+      background-color: rgba($CREDIT_RED, 0.5);
+    }
+  }
+
+  &__hour {
+    font-size: 0.5625rem;
+    color: $BOULDER;
+    margin-top: 4px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  &__legend {
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+  }
+
+  &__legend-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.6875rem;
+    color: $BOULDER;
+  }
+
+  &__legend-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+    &--quiet {
+      background-color: rgba($MOSSY_GREEN, 0.5);
+    }
+
+    &--moderate {
+      background-color: rgba($PURE_ORANGE, 0.6);
+    }
+
+    &--busy {
+      background-color: rgba($CREDIT_RED, 0.6);
+    }
+  }
+}

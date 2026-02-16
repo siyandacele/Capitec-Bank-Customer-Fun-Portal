@@ -1,0 +1,79 @@
+@import './Fonts.scss';
+
+// Base heading styles for Flama font (h1)
+@mixin heading-flama-base {
+  font-family: $Flama;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+}
+
+// Base heading styles for NunitoSans (h2-h6)
+@mixin heading-nunito-base {
+  font-family: $NunitoSans;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+
+@mixin heading-h1 {
+  @include heading-flama-base;
+  font-size: 36px;
+  line-height: 46px;
+
+  @include MobileFirst($grid-breakpoint-lg) {
+    font-size: 72px;
+    line-height: 92px;
+  }
+}
+
+@mixin heading-h2 {
+  @include heading-nunito-base;
+  font-size: 30px;
+  line-height: 40px;
+
+  @include MobileFirst($grid-breakpoint-lg) {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
+
+@mixin heading-h3 {
+  @include heading-nunito-base;
+  font-size: 26px;
+  line-height: 36px;
+
+  @include MobileFirst($grid-breakpoint-lg) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@mixin heading-h4 {
+  @include heading-nunito-base;
+  font-size: 22px;
+  line-height: 32px;
+
+  @include MobileFirst($grid-breakpoint-lg) {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@mixin heading-h5 {
+  @include heading-nunito-base;
+  font-size: 20px;
+  line-height: 28px;
+
+  @include MobileFirst($grid-breakpoint-lg) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@mixin heading-h6 {
+  @include heading-nunito-base;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}

@@ -1,0 +1,26 @@
+// TODO: Clean the below up in favour of the original Boostrap Grid breakpoints
+$LARGE-DESKTOP: 1920px;
+$SMALL-DESKTOP: 1280px;
+$TABLET: 1024px;
+$MEDIUM: 991px;
+$MEDIUM_MAX: 991.1px;
+$TABLET_PORTRAIT: 768px;
+$LOWER_MEDIUM: 660px;
+$MOBILE: 480px;
+$LOWER_MOBILE: 375px;
+$LOWEST_MOBILE: 320px;
+$NAVIGATION_MAX: 1650px;
+$NAVIGATION_MEDIUM: 1440px;
+$NAVIGATION_SMALL: 1200px;
+
+// Original Boostrap Grid breakpoints taken from ~/Web/Capitec.Web.UI/wwwroot/Static/capitec_v2/node_modules/bootstrap/scss/_variables.scss
+// X-Small devices (portrait phones, less than 576px)
+$grid-breakpoint-xs: 0;
+// Small devices (landscape phones, 576px and up)
+$grid-breakpoint-sm: 576px;
+// Medium devices (tablets, 768px and up)
+$grid-breakpoint-md: 768px;
+// Large devices (desktops, 992px and up)
+$grid-breakpoint-lg: 992px;
+// X-Large devices (large desktops, 1200px and up)
+$grid-breakpoint-xl: 1200px;

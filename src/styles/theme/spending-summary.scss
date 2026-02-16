@@ -1,0 +1,15 @@
+@import '../utils/Colours.scss';
+
+.spending-summary {
+  gap: $UNIT * 3 0;
+  margin-bottom: $UNIT * 2;
+
+  &__skeleton-card {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    border: 1px solid $MERCURY;
+    border-radius: $UNIT / 2;
+    background-color: $WHITE;
+  }
+}

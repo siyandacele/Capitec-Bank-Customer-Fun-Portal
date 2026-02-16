@@ -1,0 +1,78 @@
+@import '../utils/Colours.scss';
+
+.monthly-trends {
+  &__chart-area {
+    height: 180px;
+    width: 100%;
+  }
+
+  &__tooltip {
+    border-radius: 8px;
+    border: 1px solid $MERCURY;
+    background-color: $WHITE;
+    padding: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  &__tooltip-month {
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  &__tooltip-amount {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: $CERULEAN;
+  }
+
+  &__tooltip-detail {
+    font-size: 0.75rem;
+    color: $BOULDER;
+    margin-top: 4px;
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4px;
+    font-size: 0.75rem;
+    gap: $UNIT;
+  }
+
+  &__trend {
+    display: flex;
+    align-items: center;
+    gap: $UNIT / 2;
+
+    svg {
+      height: 12px;
+      width: 12px;
+    }
+
+    &--positive {
+      color: $MOSSY_GREEN;
+    }
+
+    &--negative {
+      color: $CREDIT_RED;
+    }
+  }
+
+  &__average {
+    color: $BOULDER;
+  }
+
+  &__average-value {
+    font-weight: 500;
+    color: $DARK_GREY;
+  }
+
+  // Loading skeleton
+  &__skeleton {
+    height: 180px;
+    width: 100%;
+  }
+}

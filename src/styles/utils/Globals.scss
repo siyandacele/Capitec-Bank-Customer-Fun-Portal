@@ -1,0 +1,580 @@
+$UNIT: 8px;
+// Global Styles for Pages & Layouts
+@import 'Colours.scss';
+@import 'SpaceHelper.scss';
+@import 'ScreenSizes.scss';
+@import 'Breakpoint.scss';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $BG_WHITE !important;
+  overflow-x: hidden;
+}
+
+#st_gdpr_iframe {
+  display: none !important;
+}
+
+.error-msg {
+  color: $WELL_READ;
+  margin-top: 15px;
+}
+
+// Removed spacing as it seems to add redundant space on page level
+.page-wrapper {
+  //padding-bottom: 100px;
+  position: relative;
+  // min-height: 54vh;
+  // New primary nav height, so move page content down
+  //@include Breakpoint($MEDIUM) {
+  //  padding-bottom: 58px;
+  //}
+}
+
+.sub-page-wrapper {
+  padding-top: 128px;
+
+  @include Breakpoint($MEDIUM) {
+    padding-top: 124px;
+  }
+}
+
+.d-empty-check:empty {
+  display: none !important;
+}
+
+.pt30 {
+  padding-top: 30px;
+}
+
+@include Breakpoint($grid-breakpoint-sm) {
+  .w-md-50 {
+    width: 50% !important;
+  }
+}
+
+[data-slider-section='transact'] {
+  h1 {
+    color: $CERULEAN;
+  }
+}
+
+[data-slider-section='save'] {
+  h1 {
+    color: $REGAL_BLUE;
+  }
+}
+
+[data-slider-section='insure'] {
+  h1 {
+    color: $NEVADA;
+  }
+}
+
+[data-slider-section='credit'] {
+  h1 {
+    color: $FLUSH_MAHOGANY;
+  }
+}
+
+[data-slider-section='transact'],
+[data-slider-section='save'],
+[data-slider-section='insure'],
+[data-slider-section='credit'] {
+  .calculator {
+    height: 100%;
+
+    &-picker {
+      height: 100%;
+    }
+
+    &-tile {
+      height: 100%;
+    }
+  }
+}
+
+#loader,
+#findBranchLoader {
+  border: 5px solid $MERCURY;
+  border-top: 5px solid $REGAL_BLUE;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1.5s linear infinite;
+  margin: 15px auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.no-gutters {
+  margin-right: 0px;
+  margin-left: 0px;
+
+  > .col,
+  > [class*='col-'] {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+.theme {
+  &--rounded {
+    border-radius: 28px;
+  }
+
+  &--white {
+    color: $DARK_GREY;
+    background-color: $WHITE;
+  }
+
+  &--white + &--white,
+  .hero-section-space + &--white {
+    &.themed-container {
+      padding-top: 0;
+    }
+  }
+
+  &--light-grey {
+    color: $DARK_GREY;
+    background-color: $BG_LIGHT_PINK;
+  }
+
+  &--gun-metal {
+    color: $WHITE;
+    background-color: $GUN_METAL;
+  }
+
+  &--nevada {
+    color: $WHITE;
+    background-color: $NEVADA;
+
+    // Change text link colour and style except for some containers
+    &:not(.subnav-container-wrapper):not(.subnav-container-mobile):not(
+        .card-medium-branded
+      ):not(.product-card-v2) {
+      a:not(.btn) {
+        color: $WHITE;
+        text-decoration: underline;
+        text-underline-position: under;
+
+        &:hover {
+          color: $WHITE;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  &--river-bed {
+    color: $WHITE;
+    background-color: $RIVER_BED;
+  }
+
+  &--live-better {
+    color: $WHITE;
+    background-color: $DARK_VIOLET;
+
+    &:not(.subnav-container-wrapper):not(.subnav-container-mobile):not(
+        .card-medium-branded
+      ):not(.themed-text-card):not(.product-card-v2) {
+      box-shadow: 0 20px 30px 0 rgba($color: $DARK_VIOLET, $alpha: 0.3);
+    }
+  }
+
+  &--live-better-alt {
+    color: $WHITE;
+    background-image: $LB_GRADIENT_ALT;
+  }
+
+  &--global-one {
+    color: $DARK_GREY;
+    background-color: $GLOBALONE;
+  }
+
+  &--global-one-alt {
+    color: $DARK_GREY;
+    background-image: $GLOBALONE_GRADIENT;
+  }
+
+  &--global-biz {
+    color: $WHITE;
+    background-color: $GLOBALBIZ_NAV_BG;
+
+    &:not(.subnav-container-wrapper):not(.subnav-container-mobile):not(
+        .card-medium-branded
+      ):not(.themed-text-card) {
+      box-shadow: 0 30px 40px 0 rgba($color: $GLOBALBIZ_NAV_BG, $alpha: 0.3);
+
+      // Small devices (landscape phones, 576px and up)
+      @include MobileFirst($grid-breakpoint-sm) {
+      }
+
+      // Medium devices (tablets, 768px and up)
+      @include MobileFirst($grid-breakpoint-md) {
+      }
+
+      // Large devices (desktops, 992px and up)
+      @include MobileFirst($grid-breakpoint-lg) {
+        box-shadow: none;
+
+        &:hover {
+          box-shadow: 0 30px 40px 0 rgba($color: $GLOBALBIZ_NAV_BG, $alpha: 0.3);
+        }
+      }
+
+      // X-Large devices (large desktops, 1200px and up)
+      @include MobileFirst($grid-breakpoint-xl) {
+      }
+    }
+
+    // Change text link colour and style except for some containers
+    &:not(.subnav-container-wrapper):not(.subnav-container-mobile):not(
+        .subnav-container-mobile
+      ):not(.card-medium-branded) {
+      a:not(.btn) {
+        color: $WHITE;
+        text-decoration: underline;
+        text-underline-position: under;
+
+        &:hover {
+          color: $WHITE;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  &--dark-blue {
+    color: $WHITE;
+    background-color: $DARK_BLUE;
+
+    &:not(.subnav-container-wrapper):not(.subnav-container-mobile):not(
+        .card-medium-branded
+      ):not(.themed-text-card) {
+      box-shadow: 0 30px 40px 0 rgba($color: $DARK_BLUE, $alpha: 0.3);
+
+      // Small devices (landscape phones, 576px and up)
+      @include MobileFirst($grid-breakpoint-sm) {
+      }
+
+      // Medium devices (tablets, 768px and up)
+      @include MobileFirst($grid-breakpoint-md) {
+      }
+
+      // Large devices (desktops, 992px and up)
+      @include MobileFirst($grid-breakpoint-lg) {
+        box-shadow: none;
+        &:hover {
+          box-shadow: 0 30px 40px 0 rgba($color: $DARK_BLUE, $alpha: 0.3);
+        }
+      }
+
+      // X-Large devices (large desktops, 1200px and up)
+      @include MobileFirst($grid-breakpoint-xl) {
+      }
+    }
+
+    // Change text link colour and style except for some containers
+    &:not(.subnav-container-wrapper):not(.subnav-container-mobile):not(
+        .card-medium-branded
+      ) {
+      a:not(.btn) {
+        color: $WHITE;
+        text-decoration: underline;
+        text-underline-position: under;
+
+        &:hover {
+          color: $WHITE;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  // Transact
+  &--transact {
+    background-color: $TRANSACT_PRIMARY;
+    color: $WHITE;
+  }
+
+  &--transact--secondary {
+    color: $WHITE;
+    background-color: $TRANSACT_SECONDARY;
+  }
+
+  // Save
+  &--save {
+    color: $WHITE;
+    background-color: $SAVE_PRIMARY;
+  }
+
+  &--save--secondary {
+    color: $WHITE;
+    background-color: $SAVE_SECONDARY;
+  }
+
+  // Insure
+  &--insure {
+    color: $WHITE;
+    background-color: $INSURE_PRIMARY;
+  }
+
+  &--insure--secondary {
+    color: $WHITE;
+    background-color: $INSURE_SECONDARY;
+  }
+
+  // Credit
+  &--credit {
+    color: $WHITE;
+    background-color: $CREDIT_PRIMARY;
+  }
+
+  &--credit--secondary {
+    color: $WHITE;
+    background-color: $CREDIT_SECONDARY;
+  }
+
+  &--positive {
+    color: $WHITE;
+    background-color: $POSITIVE;
+  }
+
+  &--warn {
+    color: $WHITE;
+    background-color: $WARN;
+  }
+
+  &--alert {
+    color: $WHITE;
+    background-color: $ALERT;
+  }
+
+  &--save-better {
+    color: $WHITE;
+    background-color: $LB_SAVE_BETTER;
+  }
+
+  &--bank-better {
+    color: $WHITE;
+    background-color: $LB_BANK_BETTER;
+  }
+
+  &--spend-better {
+    color: $WHITE;
+    background-color: $LB_SPEND_BETTER;
+  }
+
+  &--money-up {
+    color: $WHITE;
+    background-image: $LB_MONEY_UP_GRADIENT;
+  }
+
+  &--default-sub-nav {
+    color: $DARK_GREY;
+    background-color: $DEFAULT_SUBNAV_BG;
+  }
+
+  &--vivid-pink {
+    color: $WHITE;
+    background-color: $VIVID_PINK;
+  }
+
+  &--dark-pink {
+    color: $WHITE;
+    background-color: $DARK_PINK;
+  }
+
+  &--dark-violet {
+    color: $WHITE;
+    background-color: $DARK_VIOLET;
+  }
+
+  &--connect {
+    color: $WHITE;
+    background-color: $VERY_DARK_BLUE;
+  }
+
+  &--strong-blue {
+    color: $WHITE;
+    background-color: $STRONG_BLUE;
+  }
+
+  &--sunset {
+    color: $WHITE;
+    background-image: $SUNSET_GRADIENT;
+    box-shadow: 0 20px 30px 0 rgba($color: $PURE_ORANGE, $alpha: 0.2);
+
+    // Make the primary button transparent on this theme
+    .button--v2:not(:hover) {
+      border-color: $WHITE;
+      &:not(.button--v2--secondary) {
+        background-color: transparent;
+      }
+    }
+
+    // Change text link colour and style except for some containers
+    &:not(.subnav-container-wrapper):not(.subnav-container-mobile):not(
+        .card-medium-branded
+      ) {
+      a:not(.btn) {
+        color: $WHITE;
+        text-decoration: underline;
+        text-underline-position: under;
+
+        &:hover {
+          color: $WHITE;
+          opacity: 0.5;
+        }
+      }
+    }
+
+    // Small devices (landscape phones, 576px and up)
+    @include MobileFirst($grid-breakpoint-sm) {
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @include MobileFirst($grid-breakpoint-md) {
+    }
+
+    // Large devices (desktops, 992px and up)
+    @include MobileFirst($grid-breakpoint-lg) {
+      box-shadow: none;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @include MobileFirst($grid-breakpoint-xl) {
+    }
+  }
+
+  &--whisper {
+    color: $DARK_GREY;
+    background-image: $WHISPER_GRADIENT;
+  }
+}
+
+// For styleguide display purpose only
+.flag-container {
+  position: relative;
+  height: 200px;
+  padding: 0px !important;
+  border: 1px solid $GUN_METAL;
+  background-color: $WHITE;
+}
+
+.flags-row {
+  gap: 20px;
+}
+
+.flag {
+  height: 30px;
+  border-radius: 15px;
+  color: $WHITE;
+  position: absolute;
+  text-align: center;
+  margin: 20px;
+  padding: 3px 15px 0px 15px;
+  z-index: 10;
+
+  &.discount-flag {
+    background-color: $LB_DISCOUNT;
+  }
+  &.cash-back-flag {
+    background-color: $LB_CASH_BACK;
+  }
+  &.news-flag {
+    background-color: $FLUSH_MAHOGANY;
+  }
+  &.bank-better-flag {
+    background-color: $LB_BANK_BETTER;
+  }
+  &.none-flag {
+    background-color: transparent;
+    color: transparent;
+  }
+  &.cerulean-flag {
+    background-color: rgba($CERULEAN, 0.75);
+  }
+  &.picton-blue-flag {
+    background-color: rgba($PICTON_BLUE, 0.75);
+  }
+  &.pacific-blue-flag {
+    background-color: rgba($PACIFIC_BLUE, 0.75);
+  }
+  &.lochmara-flag {
+    background-color: rgba($LOCHMARA, 0.75);
+  }
+  &.regal-blue-flag {
+    background-color: rgba($REGAL_BLUE, 0.75);
+  }
+  &.astronaut-blue-flag {
+    background-color: rgba($ASTRONAUT_BLUE, 0.75);
+  }
+  &.prussian-blue-flag {
+    background-color: rgba($PRESSIAN_BLUE, 0.75);
+  }
+  &.flush-mahogany-flag {
+    background-color: rgba($FLUSH_MAHOGANY, 0.75);
+  }
+  &.well-read-flag {
+    background-color: rgba($WELL_READ, 0.75);
+  }
+  &.well-read-secondary-flag {
+    background-color: rgba($WELL_READ_SECONDARY, 0.75);
+  }
+  &.nevada-flag {
+    background-color: rgba($NEVADA, 0.75);
+  }
+  &.river-bed-flag {
+    background-color: rgba($RIVER_BED, 0.75);
+  }
+  &.boulder-flag {
+    background-color: rgba($BOULDER, 0.75);
+  }
+  &.hit-gray-flag {
+    background-color: rgba($HIT_GRAY, 0.75);
+  }
+  &.mercury-flag {
+    background-color: rgba($MERCURY, 0.75);
+  }
+  &.wild-sand-flag {
+    background-color: rgba($WILD_SAND, 0.75);
+    color: $DARK_GREY;
+  }
+  &.white-flag {
+    background-color: rgba($WHITE, 0.75);
+    color: $DARK_GREY;
+  }
+  &.olive-drab-flag {
+    background-color: rgba($OLIVE_DRAB, 0.75);
+  }
+  &.hot-cinnamon-flag {
+    background-color: rgba($HOT_CINNAMON, 0.75);
+  }
+  &.mossy-green-flag {
+    background-color: rgba($MOSSY_GREEN, 0.75);
+  }
+  &.dodger-blue-flag {
+    background-color: rgba($DODGER_BLUE, 0.75);
+  }
+  &.chambray-flag {
+    background-color: rgba($CHAMBRAY, 0.75);
+  }
+  &.deep-cerulean-flag {
+    background-color: rgba($DEEP_CERULEAN, 0.75);
+  }
+  &.mountain-meadow-flag {
+    background-color: rgba($MOUNTAIN_MEADOW, 0.75);
+  }
+}

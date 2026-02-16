@@ -1,0 +1,128 @@
+@import '../utils/Colours.scss';
+
+.customer-profile {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  &__badge {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    text-transform: capitalize;
+
+    &--premium {
+      background-color: $DARK_VIOLET;
+      color: $WILD_SAND;
+    }
+
+    &--gold {
+      background-color: rgba($ORANGE, 0.15);
+      color: darken($ORANGE, 15%);
+    }
+
+    &--basic {
+      background-color: $WILD_SAND;
+      color: $BOULDER;
+    }
+  }
+
+  &__avatar-row {
+    display: flex;
+    align-items: center;
+    gap: $UNIT * 2;
+    margin-bottom: $UNIT * 2;
+  }
+
+  &__avatar {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba($TRANSACT_PRIMARY, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      height: 20px;
+      width: 20px;
+      color: $TRANSACT_PRIMARY;
+    }
+  }
+
+  &__name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $DARK_GREY;
+    margin-bottom: 0;
+    line-height: normal;
+  }
+
+  &__email-row {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.75rem;
+    color: $BOULDER;
+
+    svg {
+      height: 12px;
+      width: 12px;
+    }
+  }
+
+  &__details {
+    border-top: 1px solid $MERCURY;
+    padding-top: $UNIT * 2;
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT;
+  }
+
+  &__detail-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+  }
+
+  &__detail-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: $BOULDER;
+
+    svg {
+      height: 14px;
+      width: 14px;
+    }
+  }
+
+  &__detail-value {
+    font-weight: 500;
+    color: $DARK_GREY;
+  }
+
+  // Loading state
+  &__skeleton {
+    display: flex;
+    align-items: center;
+    gap: $UNIT * 2;
+  }
+
+  &__skeleton-lines {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT;
+  }
+}

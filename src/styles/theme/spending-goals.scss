@@ -1,0 +1,88 @@
+@import '../utils/Colours.scss';
+
+.spending-goals {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT;
+  }
+
+  &__item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__category {
+    display: flex;
+    align-items: center;
+    gap: $UNIT;
+  }
+
+  &__category-name {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  &__percentage {
+    font-size: 0.75rem;
+    color: $BOULDER;
+  }
+
+  &__progress-track {
+    height: 24px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2px;
+    background-color: $MERCURY;
+  }
+
+  &__progress-bar {
+    height: 100%;
+    transition: width 0.3s ease;
+
+    &--on-track {
+      background-color: $CERULEAN;
+    }
+
+    &--warning {
+      background-color: $PURE_ORANGE;
+    }
+
+    &--exceeded {
+      background-color: $CREDIT_RED;
+    }
+  }
+
+  &__amounts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: $BOULDER;
+  }
+
+  // Skeleton
+  &__skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__skeleton-item {
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT;
+  }
+
+  &__skeleton-row {
+    display: flex;
+    justify-content: space-between;
+  }
+}

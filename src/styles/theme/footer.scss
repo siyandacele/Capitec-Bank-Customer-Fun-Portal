@@ -1,0 +1,160 @@
+.footer--v2-width.footer--v2-width {
+  // Double up specificity so that col class does not beat this selector
+  max-width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  span > p {
+    margin-bottom: 0px;
+  }
+
+  @include Breakpoint($NAVIGATION_MEDIUM) {
+    max-width: 1220px;
+  }
+
+  @include Breakpoint($SMALL-DESKTOP) {
+    max-width: 982px;
+  }
+}
+
+.footer--v2 {
+  background-color: $WHITE;
+  font-family: $NunitoSans;
+  font-style: normal;
+  font-weight: 400;
+
+  .row {
+    background-color: $WHITE;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+// Footer main body section
+.footer--v2__logo {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  @include Breakpoint($NAVIGATION_MAX) {
+    max-width: 1420px;
+  }
+
+  @include Breakpoint($NAVIGATION_MEDIUM) {
+    max-width: 1240px;
+  }
+
+  @include Breakpoint($SMALL-DESKTOP) {
+    max-width: 100%;
+    padding: 0px 15px;
+  }
+
+  @include Breakpoint($MEDIUM) {
+    padding-left: 32px;
+    max-width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    width: 132px;
+
+    @include Breakpoint($MEDIUM) {
+      width: 105px;
+    }
+  }
+}
+
+.footer--v2__disclaimer {
+  padding: 32px 0px;
+  font-size: 12px;
+  font-family: $NunitoSans;
+  font-weight: 500;
+  border-top: 1px solid $LIGHT_GREY;
+  // for balance
+  margin-top: 8px * 2;
+
+  @include Breakpoint($MEDIUM) {
+    padding: 16px;
+    text-align: center;
+  }
+
+  @media (min-width: $MEDIUM) and (max-width: 1280px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.footer--v2__banner {
+  background: $FOOTER_BANNER;
+  margin-bottom: 56px;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  &-inner {
+    min-height: 198px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+
+    @include Breakpoint($MEDIUM) {
+      min-height: 138px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .btn {
+      padding: 17px 24px;
+      min-width: 230px;
+      font-size: 18px;
+      height: 55px;
+      border-radius: 27.5px;
+
+      &:hover {
+        border-color: $WHITE;
+        background-color: transparent;
+      }
+
+      @include Breakpoint($MEDIUM) {
+        width: auto;
+        padding: 9.5px 24px;
+        min-width: 180px;
+        font-size: 16px;
+        height: 38px;
+        border-radius: 19px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  &-text {
+    line-height: normal;
+    color: $WHITE;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-right: 50px;
+    max-width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @include Breakpoint($MEDIUM) {
+      max-width: 100%;
+      font-size: 18px;
+      margin-bottom: 18px;
+      margin-right: 0;
+    }
+  }
+}

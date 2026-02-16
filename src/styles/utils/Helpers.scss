@@ -1,0 +1,40 @@
+/**
+ * Mixin: ellipsis-multiline
+ *
+ * This mixin truncates text after a specified number of lines and adds an ellipsis ("...")
+ * to indicate that there is more content that is not displayed. It uses the CSS properties
+ * `-webkit-box`, `overflow`, `text-overflow`, `-webkit-box-orient`, `-webkit-line-clamp`,
+ * and `line-clamp` to achieve this effect.
+ *
+ * @param {Number} $lines - The number of lines to display before truncating the text. Default is 1.
+ *
+ * Usage:
+ * @include ellipsis-multiline(2);
+ */
+
+@mixin ellipsis-multiline($lines: 1, $overflow: hidden) {
+  display: -webkit-box;
+  overflow: $overflow;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  line-clamp: $lines;
+}
+
+/**
+ * Mixin: has-siblings
+ *
+ * This mixin applies styles to an element only if it has siblings.
+ * It uses the `:not(:only-child)` pseudo-class to check if the element
+ * is not the only child of its parent.
+ *
+ * Usage:
+ * @include has-siblings {
+ *     // Your styles here
+ * }
+ */
+@mixin has-siblings() {
+  &:not(:only-child) {
+    @content;
+  }
+}

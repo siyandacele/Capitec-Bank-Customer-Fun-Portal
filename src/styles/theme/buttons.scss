@@ -1,0 +1,283 @@
+@import '../utils/Colours.scss';
+@import '../utils/Fonts.scss';
+@import '../utils/Breakpoint';
+@import '../utils/ScreenSizes';
+
+.button--v2 {
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $BUTTON_PRIMARY;
+  border: 1.5px solid $BUTTON_PRIMARY;
+  color: $WHITE;
+  border-radius: 24px; // height of CTA's is max 48px, 24px is half of that.
+  padding: 14.5px 24px; // left / right padding is half of CTA height
+  line-height: 0;
+  height: 48px;
+  max-width: 100%;
+  min-width: 144px;
+  font-family: $NunitoSans;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+  }
+
+  @include Breakpoint($MEDIUM) {
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: $BUTTON_HOVER;
+    border-color: $BUTTON_HOVER;
+    color: $WHITE;
+    cursor: pointer;
+  }
+
+  &:active,
+  &:focus {
+    box-shadow: none;
+  }
+
+  &--secondary {
+    background-color: $WHITE;
+    border-color: $BUTTON_PRIMARY;
+    color: $BUTTON_PRIMARY;
+
+    &.button--v2--right-arrow {
+      &::before {
+        background-color: $BUTTON_PRIMARY;
+      }
+      &::after {
+        border-color: $BUTTON_PRIMARY;
+      }
+    }
+  }
+
+  // This modifier is only applied to single buttons
+  &--count1 {
+    background-color: $WHITE;
+    border-color: $BUTTON_PRIMARY;
+    color: $BUTTON_PRIMARY;
+
+    // Large devices (desktops, 992px and up)
+    @include MobileFirst($grid-breakpoint-lg) {
+      background-color: $BUTTON_PRIMARY;
+      border-color: $BUTTON_PRIMARY;
+      color: $WHITE;
+    }
+  }
+
+  // Assigned via a script in button.js
+  // &--next-to {
+  // }
+  &--below {
+    margin-top: 10px;
+  }
+
+  &--link {
+    background-color: transparent;
+    border-color: transparent;
+    color: $BUTTON_PRIMARY;
+    padding-left: 0;
+    padding-right: 0;
+    border-left: 0;
+    border-right: 0;
+    min-width: auto;
+
+    &:hover {
+      background-color: transparent;
+      border-color: transparent;
+      color: $BUTTON_PRIMARY;
+      text-decoration: underline;
+    }
+
+    &:active,
+    &:focus {
+      box-shadow: none;
+      text-decoration: underline;
+    }
+  }
+
+  &--small {
+    border-radius: 15px;
+    padding: 6.5px 15px; // left / right padding is half of CTA height
+    height: 30px;
+    font-size: 14px;
+
+    @include Breakpoint($LOWEST_MOBILE) {
+      min-width: 130px;
+    }
+  }
+
+  &--medium {
+    border-radius: 18px;
+    padding: 8.5px 18px; // left / right padding is half of CTA height
+    height: 36px;
+    font-size: 16px;
+
+    @include Breakpoint($LOWEST_MOBILE) {
+      min-width: 130px;
+    }
+  }
+
+  // TODO: Move this out to the buttons.md at a later stage depending on if this pattern needs to be re-used
+  &--right-arrow {
+    position: relative;
+    padding: 6.5px 40px 6.5px 15px;
+
+    /* Arrow tail */
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 14px;
+        width: 15px;
+        height: 1.5px;
+        background-color: $WHITE;
+        transform: translateY(-50%);
+        transition: transform 0.3s ease;
+    }
+
+    &:hover::before {
+      background-color: $WHITE
+    }
+
+    /* Arrowhead */
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      width: 8px;
+      height: 8px;
+      border-right: 1.5px solid $WHITE;
+      border-top: 1.5px solid $WHITE;
+      transform: translateY(-50%) rotate(45deg);
+      transition: transform 0.3s ease;
+    }
+
+    &:hover::after {
+      border-color: $WHITE;
+    }
+
+    @include Breakpoint($MEDIUM) {
+      // So that the text looks centered on mobile
+      padding: 6.5px 40px 6.5px 40px;
+    }
+  }
+
+  &-group {
+    [class*='button--v2']:not(:first-child) {
+      @include Breakpoint($MEDIUM) {
+        margin-top: 10px; // give ctas vertical spacing for when they ovelap.
+      }
+    }
+
+    @media (min-width: calc(#{$MEDIUM} + 0.1px)) {
+      & > [class*='button--v2'] {
+        // this will target any direct decendent ctas inside the set
+        margin-right: 15px; // make sure they have horizontal spacing between each other on above mobile breakpoint
+
+        &:last-child {
+          margin-right: 0; // the last child does not need the spacing
+        }
+      }
+    }
+  }
+}
+
+.button-toggle--v2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $WHITE;
+  border-color: $WHITE;
+  border: 1px solid $MERCURY;
+  color: $DARK_GREY;
+  padding: 15px 15px;
+
+  &:hover,
+  &.active {
+    color: $BUTTON_PRIMARY;
+  }
+
+  svg {
+    color: inherit;
+  }
+}
+
+.button--v2-group-toggle {
+  .button-toggle--v2 {
+    &:not(:first-child):not(:last-child) {
+      border-left-color: transparent;
+      border-right-color: transparent;
+    }
+
+    &:first-child {
+      border-right-color: transparent;
+      padding-right: 7px;
+    }
+
+    &:last-child {
+      border-left-color: transparent;
+      padding-left: 7px;
+    }
+  }
+}
+
+.button-group__flush {
+  @include Breakpoint($MEDIUM) {
+    width: 100%;
+  }
+}
+
+.button-group__switcher {
+  background-color: $VERY_LIGHT_GREY;
+  border: 2px solid $VERY_LIGHT_GREY;
+  border-radius: 20px;
+
+  .button--v2 {
+    background-color: $WHITE;
+    color: $DARK_GREY;
+    border: 0;
+    border-radius: 20px; // height of CTA's is 36px, 18px is half of that but 20px works best
+    padding: 5px 18px; // left / right padding is half of CTA height
+    height: 36px;
+    font-weight: 500;
+    min-width: 0;
+
+    &--secondary {
+      background-color: transparent;
+      color: $DARK_GREY;
+      font-weight: 400;
+    }
+  }
+
+  // Override the default Bootstrap button group styles
+  &.btn-group > .btn:not(:last-child):not(.dropdown-toggle),
+  &.btn-group > .btn-group:not(:last-child) > .btn {
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+  }
+  &.btn-group > .btn:not(:first-child),
+  &.btn-group > .btn-group:not(:first-child) > .btn {
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+  }
+  &.btn-group > .btn:not(:first-child),
+  &.btn-group > .btn-group:not(:first-child) {
+      margin-left: 0;
+  }
+}
+
+

@@ -1,0 +1,360 @@
+@import '../utils/Colours.scss';
+
+.transactions-list {
+  min-height: 100vh;
+  padding: $UNIT * 2 0;
+
+  &__card {
+    background-color: $WHITE;
+    border: 1px solid $MERCURY;
+    border-radius: $UNIT / 2;
+  }
+
+  &__header {
+    padding: $UNIT * 2;
+    border-bottom: 1px solid $MERCURY;
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: $UNIT * 2;
+  }
+
+  // Search
+  &__search-wrapper {
+    position: relative;
+    margin-bottom: $UNIT * 2;
+  }
+
+  &__search-icon {
+    position: absolute;
+    left: $UNIT * 2;
+    top: 50%;
+    transform: translateY(-50%);
+    height: $UNIT * 2;
+    width: $UNIT * 2;
+    color: $LIGHT_GREY;
+  }
+
+  &__search-input {
+    width: 100%;
+    padding: $UNIT $UNIT * 2 $UNIT 40px;
+    border: 1px solid $MERCURY;
+    border-radius: $UNIT;
+    font-size: 0.875rem;
+
+    &:focus {
+      outline: none;
+      border-color: $TRANSACT_PRIMARY;
+    }
+  }
+
+  &__categories-wrapper {
+    position: relative;
+    margin-bottom: $UNIT * 2;
+  }
+
+  &__categories-scroll {
+    display: flex;
+    gap: $UNIT;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &--padded {
+      padding: 0 32px;
+    }
+  }
+
+  &__scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: $WHITE;
+    border: 1px solid $MERCURY;
+    border-radius: $UNIT;
+    padding: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $WILD_SAND;
+    }
+
+    &--left {
+      left: 0;
+    }
+
+    &--right {
+      right: 0;
+    }
+
+    svg {
+      height: $UNIT * 2;
+      width: $UNIT * 2;
+    }
+  }
+
+  &__category-pill {
+    padding: 6px $UNIT * 2;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: $UNIT;
+    white-space: nowrap;
+    transition:
+      background-color 0.2s,
+      color 0.2s;
+    cursor: pointer;
+    border: none;
+    background-color: $WILD_SAND;
+    color: $VERY_DARK_GREY;
+
+    &:hover {
+      background-color: $MERCURY;
+    }
+
+    &--active {
+      background-color: $TRANSACT_PRIMARY;
+      color: $WHITE;
+
+      &:hover {
+        background-color: $STRONG_BLUE;
+      }
+    }
+  }
+
+  // Sort
+  &__sort-bar {
+    display: flex;
+    align-items: center;
+    gap: $UNIT;
+
+    svg {
+      height: $UNIT * 2;
+      width: $UNIT * 2;
+      color: $LIGHT_GREY;
+    }
+  }
+
+  &__sort-select {
+    font-size: 0.75rem;
+    border: 1px solid $MERCURY;
+    border-radius: $UNIT;
+    padding: 4px $UNIT;
+
+    &:focus {
+      outline: none;
+      border-color: $TRANSACT_PRIMARY;
+    }
+  }
+
+  &__total-count {
+    font-size: 0.75rem;
+    color: $BOULDER;
+    margin-left: auto;
+  }
+
+  // Transaction rows
+  &__rows {
+    & > * + * {
+      border-top: 1px solid $VERY_LIGHT_GRAY;
+    }
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    gap: $UNIT * 2;
+    padding: $UNIT * 2;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+    &:hover {
+      background-color: $WILD_SAND;
+    }
+  }
+
+  &__row-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: $UNIT;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $WHITE;
+
+    svg {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  &__row-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__row-main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: $UNIT;
+  }
+
+  &__row-details {
+    min-width: 0;
+    flex: 1;
+  }
+
+  &__merchant {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $DARK_GREY;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__description {
+    font-size: 0.75rem;
+    color: $BOULDER;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__amount,
+  &__merchant,
+  &__payment-method,
+  &__description {
+    margin: 0;
+    line-height: normal;
+  }
+
+  &__row-meta {
+    display: flex;
+    align-items: center;
+    gap: $UNIT;
+    margin-top: 4px;
+    flex-wrap: wrap;
+  }
+
+  &__datetime {
+    font-size: 0.75rem;
+    color: $LIGHT_GREY;
+  }
+
+  &__category-badge {
+    background-color: $GLOBALONE;
+    font-size: 0.7rem;
+    padding: 2px $UNIT;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+
+  &__row-amount {
+    text-align: right;
+    flex-shrink: 0;
+  }
+
+  &__amount {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: $DARK_GREY;
+  }
+
+  &__payment-method {
+    font-size: 0.75rem;
+    color: $BOULDER;
+  }
+
+  &__empty {
+    padding: 32px;
+    text-align: center;
+    color: $BOULDER;
+  }
+
+  &__pagination {
+    padding: $UNIT * 2 $UNIT * 2;
+    border-top: 1px solid $MERCURY;
+  }
+
+  &__pagination-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__pagination-info {
+    font-size: 0.75rem;
+    color: $VERY_DARK_GREY;
+  }
+
+  &__pagination-controls {
+    display: flex;
+    align-items: center;
+    gap: $UNIT;
+  }
+
+  &__pagination-arrow {
+    padding: 6px;
+    border: 1px solid $MERCURY;
+    border-radius: $UNIT;
+    background: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $WILD_SAND;
+    }
+
+    &:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    svg {
+      height: $UNIT * 2;
+      width: $UNIT * 2;
+    }
+  }
+
+  &__page-numbers {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  &__page-btn {
+    padding: 4px $UNIT * 2;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: $UNIT;
+    border: none;
+    cursor: pointer;
+    background-color: $WILD_SAND;
+    color: $VERY_DARK_GREY;
+
+    &:hover {
+      background-color: $MERCURY;
+    }
+
+    &--active {
+      background-color: $TRANSACT_PRIMARY;
+      color: $WHITE;
+
+      &:hover {
+        background-color: $STRONG_BLUE;
+      }
+    }
+  }
+}

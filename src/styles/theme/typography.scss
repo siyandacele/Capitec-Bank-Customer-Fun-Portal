@@ -1,0 +1,247 @@
+@import '../utils/Colours.scss';
+@import '../utils/Fonts.scss';
+@import '../utils/Breakpoint';
+@import '../utils/ScreenSizes';
+@import '../utils/ParagraphStyles';
+@import '../utils/HeadingStyles';
+
+body {
+  font-family: $NunitoSans;
+  color: $DARK_GREY;
+}
+
+// Heading Styles
+h1,
+.h1 {
+  @include heading-h1;
+  margin-bottom: 1rem;
+}
+
+h2,
+.h2 {
+  @include heading-h2;
+  margin-bottom: 1rem;
+}
+
+h3,
+.h3 {
+  @include heading-h3;
+  margin-bottom: 12px;
+}
+
+h4,
+.h4 {
+  @include heading-h4;
+  margin-bottom: 10px;
+}
+
+h5,
+.h5 {
+  @include heading-h5;
+  margin-bottom: 10px;
+}
+
+h6,
+.h6 {
+  @include heading-h6;
+  margin-bottom: 10px;
+}
+
+.heading-accented {
+  color: $DARK_BLUE;
+}
+
+// Paragraph Styles
+p,
+.paragraph {
+  @include paragraph-default;
+}
+
+.paragraph-intro {
+  @include paragraph-large;
+}
+
+.paragraph-small {
+  @include paragraph-small;
+}
+
+.paragraph-tiny {
+  @include paragraph-tiny;
+}
+
+// Adjacent Rules
+@mixin paragraph-heading-spacing {
+  $heading-levels: 1, 2, 3, 4, 5, 6;
+
+  @each $level in $heading-levels {
+    // Apply spacing for paragraphs adjacent to headings (Leading Space)
+    p + h#{$level},
+    p + .h#{$level},
+    ul + h#{$level},
+    ul + .h#{$level},
+    ol + h#{$level},
+    ol + .h#{$level} {
+      margin-top: 2rem;
+    }
+  }
+}
+
+h2 + table.desktop,
+.h2 + table.desktop {
+  margin-top: 40px;
+}
+
+h2 + table.desktop + table.mobile,
+.h2 + table.desktop + table.mobile {
+  margin-top: 30px;
+}
+
+h6 + h3 {
+  margin-top: 0;
+}
+
+// Large devices (desktops, 992px and up)
+@include MobileFirst($grid-breakpoint-lg) {
+  h6 + h3 {
+    margin-top: 12px;
+  }
+}
+
+// Apply the mixin
+@include paragraph-heading-spacing;
+
+// List Styles
+@mixin standard-list-styles {
+  font-family: $NunitoSans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 0;
+  display: table;
+}
+
+// Excluded selectors for reuse
+$excluded-list-selectors: '.transact-article-list, .navbar-nav, .footer-bottom-list-container, .select2-results__options, .search-suggest-items--v2';
+$excluded-list-item-selectors: '.nav-item__v2, .nav-item__v2--secondary, .footer-link-item, .secondary-nav-item__v2, .epi-quickNavigator-editLink, .epi-quickNavigator-dropdown';
+
+// Unordered lists
+ul:not(#{$excluded-list-selectors}) {
+  @include standard-list-styles;
+
+  li {
+    list-style-type: none;
+    display: table-row;
+
+    &:not(#{$excluded-list-item-selectors}):before {
+      content: '\2022';
+      display: table-cell;
+      text-align: right;
+      padding-right: 10px;
+      padding-left: 0;
+    }
+
+    // Target the last paragraph in every list item
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    // Target the last paragraph in the last list item
+    &:last-child p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // Nested lists
+  > li > ul {
+    list-style-type: none;
+    padding-left: 5px;
+
+    > li:before {
+      content: '-' !important;
+      text-indent: -5px;
+    }
+  }
+}
+
+// Ordered lists
+ol {
+  @include standard-list-styles;
+  counter-reset: item;
+
+  li {
+    list-style-type: none;
+    counter-increment: item;
+    display: table-row;
+
+    &:before {
+      content: counter(item) '.';
+      display: table-cell;
+      text-align: right;
+      padding-right: 20px;
+      font-weight: 500;
+    }
+
+    // Target the last paragraph in every list item
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    // Target the last paragraph in the last list item
+    &:last-child p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Fonts
+.sg-section {
+  &--hindvadodara {
+    font-family: $HindVadodara;
+    span {
+      font-size: 24px;
+    }
+  }
+  &--flama {
+    font-family: $Flama;
+    span {
+      font-size: 24px;
+    }
+  }
+  &--nunitosans {
+    font-family: $NunitoSans;
+    span {
+      font-size: 24px;
+    }
+  }
+}
+
+.font-light {
+  font-weight: 300;
+}
+.font-regular {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+
+// Link Styles
+
+a,
+.link {
+  font-family: $NunitoSans;
+  font-style: normal;
+  color: $BUTTON_PRIMARY;
+
+  &:hover {
+    text-decoration: none;
+    color: $BUTTON_HOVER;
+    cursor: pointer;
+  }
+}

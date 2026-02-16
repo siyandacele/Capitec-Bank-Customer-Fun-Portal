@@ -1,0 +1,199 @@
+@import '../utils/Colours.scss';
+@import '../utils/Fonts.scss';
+@import '../utils/Breakpoint';
+@import '../utils/ScreenSizes';
+.mainNavBar {
+  position: relative;
+}
+
+.main-navigation--v2-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .main-nav-background-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: $WHITE;
+  }
+}
+
+.sticky--v2 {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transform: translateZ(0px);
+  -ms-transform: translateZ(0px);
+  -webkit-transform: translateZ(0);
+}
+
+
+.sticky--v2:before,
+.sticky--v2:after {
+  content: '';
+  display: table;
+}
+
+.main-navigation--v2 {
+  z-index: 3;
+  background-color: $WHITE;
+  padding: 0px;
+  height: 64px;
+  transform: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  max-width: 1600px;
+
+  @include Breakpoint($NAVIGATION_MAX) {
+    max-width: 1420px;
+  }
+
+  @include Breakpoint($NAVIGATION_MEDIUM) {
+    max-width: 100%;
+    padding: 0px 15px;
+  }
+
+  @include Breakpoint($NAVIGATION_SMALL) {
+    max-width: 100%;
+    padding: 0px 15px;
+  }
+
+  .navbar-brand {
+    margin: 0px 66px 0px 0px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      width: 132px;
+    }
+  }
+
+  .nav-item__v2 {
+    position: relative; // To contain children that are position: absolute; (tags)
+    cursor: pointer;
+    margin-right: 88px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid transparent;
+
+    &__tag-new {
+      position: absolute;
+      right: -37px;
+      top: -8px;
+    }
+
+    @include Breakpoint($NAVIGATION_MAX) {
+      margin-right: 66px;
+    }
+
+    @include Breakpoint($NAVIGATION_MEDIUM) {
+      margin-right: 36px;
+    }
+
+    span.nav-link {
+      font-family: $NunitoSans;
+      font-style: normal;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    &:last-of-type {
+      margin-right: 0px;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-link {
+      font-size: 16px;
+      padding: 0px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      // doing it by eye fine to me
+      letter-spacing: .025em;
+      text-align: center;
+      color: $DARK_GREY;
+    }
+
+    &.active {
+      .nav-link {
+        font-weight: 600;
+      }
+    }
+
+    &.active,
+    &:hover {
+      border-color: $DARK_GREY;
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .internet-banking-cta {
+    display: block;
+    border-bottom: none;
+
+    &__anchor {
+      align-items: flex-start !important;
+      flex-direction: column;
+      margin-top: 4px;
+
+      &__text {
+        font-weight: 600 !important;
+        &.active,
+        &:hover {
+          color: $CERULEAN;
+
+          a:hover {
+            text-decoration: none;
+          }
+        }
+      }
+
+      &__helper-text {
+        display: block;
+        font-size: 10px;
+        font-weight: normal;
+        text-align: left;
+        color: $DARK_GREY;
+
+        &:hover {
+          cursor: default;
+        }
+      }
+    }
+  }
+
+  &--expanded {
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+  }
+}
+
+.nav-button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 100%;
+}
+
+.full {
+  height: 100%;
+}

@@ -1,0 +1,286 @@
+@import '../utils/Colours.scss';
+
+.spending-by-category {
+  border: 1px solid $MERCURY;
+
+  &__header {
+    padding-bottom: $UNIT * 2;
+    border-bottom: 1px solid $WILD_SAND;
+    margin-bottom: $UNIT * 2;
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: $DARK_GREY;
+  }
+
+  &__subtitle {
+    font-size: 0.75rem;
+    color: $BOULDER;
+    margin: 0;
+    margin-top: 4px;
+    line-height: normal;
+  }
+
+  &__filters {
+    display: flex;
+    align-items: center;
+    gap: $UNIT;
+    margin-top: 12px;
+  }
+
+  &__select {
+    font-size: 0.75rem;
+    border: 1px solid $MERCURY;
+    border-radius: 8px;
+    padding: 6px 12px;
+    background-color: $WHITE;
+    transition: border-color 0.2s;
+
+    &:hover {
+      border-color: $LIGHT_GREY;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px rgba($TRANSACT_PRIMARY, 0.3);
+      border-color: transparent;
+    }
+  }
+
+  &__date-btn {
+    font-size: 0.75rem;
+    border: 1px solid $MERCURY;
+    border-radius: 8px;
+    padding: 6px 12px;
+    background-color: $WHITE;
+    transition: border-color 0.2s;
+
+    &:hover {
+      border-color: $LIGHT_GREY;
+    }
+
+    &--active {
+      border-color: $TRANSACT_PRIMARY;
+      background-color: rgba($TRANSACT_PRIMARY, 0.05);
+    }
+  }
+
+  &__chart {
+    height: 210px;
+    width: 100%;
+  }
+
+  // Tooltip
+  &__tooltip {
+    background-color: $WHITE;
+    border: 1px solid $MERCURY;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    padding: 12px 16px;
+    min-width: 200px;
+  }
+
+  &__tooltip-header {
+    display: flex;
+    align-items: center;
+    gap: $UNIT;
+    margin-bottom: 8px;
+  }
+
+  &__tooltip-dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+  }
+
+  &__tooltip-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $DARK_GREY;
+  }
+
+  &__tooltip-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__tooltip-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+  }
+
+  &__tooltip-label {
+    font-size: 0.75rem;
+    color: $BOULDER;
+  }
+
+  &__tooltip-value {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: $DARK_GREY;
+
+    &--accent {
+      font-weight: 600;
+      color: $TRANSACT_PRIMARY;
+    }
+
+    &--muted {
+      font-weight: 500;
+      color: $VERY_DARK_GREY;
+    }
+  }
+
+  // Pie chart center label
+  &__total-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  // Legend
+  &__legend {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__legend-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+
+    &:hover,
+    &--active {
+      background-color: $WILD_SAND;
+    }
+  }
+
+  &__legend-left {
+    display: flex;
+    align-items: center;
+    gap: $UNIT * 2;
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__legend-dot {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    box-shadow:
+      0 0 0 2px $WHITE,
+      0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  &__legend-info {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  &__legend-name {
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: normal;
+    color: $DARK_GREY;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__legend-count {
+    font-size: 0.75rem;
+    color: $BOULDER;
+  }
+
+  &__legend-right {
+    display: flex;
+    align-items: baseline;
+    gap: $UNIT * 2;
+    flex-shrink: 0;
+  }
+
+  &__legend-percentage {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: $BOULDER;
+  }
+
+  &__legend-amount {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: $DARK_GREY;
+  }
+
+  // Empty state
+  &__empty {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $WILD_SAND;
+    border-radius: 12px;
+  }
+
+  &__empty-text {
+    font-size: 0.875rem;
+    color: $LIGHT_GREY;
+  }
+
+  // Date picker
+  &__date-apply {
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: $WHITE;
+    background-color: $TRANSACT_PRIMARY;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: $STRONG_BLUE;
+    }
+
+    &:disabled {
+      background-color: $LIGHT_GREY;
+      cursor: not-allowed;
+    }
+  }
+
+  &__popover-footer {
+    border-top: 1px solid $MERCURY;
+    padding: 12px;
+  }
+
+  // Skeleton
+  &__skeleton-chart {
+    height: 280px;
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  &__skeleton-rows {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT * 2;
+  }
+
+  &__skeleton-row {
+    height: 48px;
+    width: 100%;
+    border-radius: 8px;
+  }
+}

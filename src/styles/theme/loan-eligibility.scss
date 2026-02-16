@@ -1,0 +1,654 @@
+@import '../utils/Colours.scss';
+
+// Dialog override for result modal
+.loan-result-dialog {
+  max-width: 540px;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+// Page layout
+.loan-page {
+  &__loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 0;
+    text-align: center;
+  }
+
+  &__loading-text {
+    margin-top: 16px;
+    color: $BOULDER;
+  }
+}
+
+// Eligibility Form
+.loan-form {
+  &__sections {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT * 2;
+  }
+
+  &__section-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $DARK_GREY;
+    padding-bottom: 8px;
+    border-bottom: 1px solid $WILD_SAND;
+  }
+
+  &__fields {
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT * 2;
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__hint {
+    font-size: 0.75rem;
+    color: $BOULDER;
+    margin: 0;
+  }
+
+  &__error {
+    font-size: 0.75rem;
+    color: $CREDIT_RED;
+    margin: 0;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: $UNIT * 2;
+    padding-top: 8px;
+  }
+}
+
+// Stepper Navigation
+.loan-stepper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+
+  &__item-wrapper {
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+    &:last-child {
+      flex: 0;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: $UNIT;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid $MERCURY;
+    background: $WHITE;
+    color: $BOULDER;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    cursor: default;
+    white-space: nowrap;
+    transition: all 0.2s;
+
+    &--active {
+      border-color: $TRANSACT_PRIMARY;
+      color: $TRANSACT_PRIMARY;
+      background-color: rgba($TRANSACT_PRIMARY, 0.05);
+    }
+
+    &--completed {
+      border-color: $MOSSY_GREEN;
+      color: $MOSSY_GREEN;
+      background-color: rgba($MOSSY_GREEN, 0.05);
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba($MOSSY_GREEN, 0.1);
+      }
+    }
+
+    &:disabled:not(.loan-stepper__item--active):not(.loan-stepper__item--completed) {
+      opacity: 0.5;
+    }
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__label {
+    @media (max-width: 576px) {
+      display: none;
+    }
+  }
+
+  &__connector {
+    flex: 1;
+    height: 2px;
+    margin: 0 $UNIT;
+    background-color: $MERCURY;
+    min-width: 16px;
+    transition: background-color 0.2s;
+
+    &--completed {
+      background-color: $MOSSY_GREEN;
+    }
+  }
+}
+
+// Eligibility Result
+.loan-result {
+  &--eligible {
+    border-left: 4px solid $MOSSY_GREEN;
+    padding-left: 16px;
+  }
+
+  &--ineligible {
+    border-left: 4px solid $CREDIT_RED;
+    padding-left: 16px;
+  }
+
+  &__status-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 4px;
+  }
+
+  &__status-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: $DARK_GREY;
+  }
+
+  &__decision-reason {
+    font-size: 0.875rem;
+    color: $BOULDER;
+    margin: 0 0 20px;
+    line-height: 1.5;
+  }
+
+  &__status-icon {
+    width: 28px;
+    height: 28px;
+
+    &--success {
+      color: $MOSSY_GREEN;
+    }
+
+    &--error {
+      color: $CREDIT_RED;
+    }
+  }
+
+  &__risk-badge {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    text-transform: capitalize;
+    margin-left: auto;
+
+    &--low {
+      background-color: rgba($MOSSY_GREEN, 0.1);
+      color: $MOSSY_GREEN;
+    }
+
+    &--medium {
+      background-color: rgba($PURE_ORANGE, 0.1);
+      color: $PURE_ORANGE;
+    }
+
+    &--high {
+      background-color: rgba($CREDIT_RED, 0.1);
+      color: $CREDIT_RED;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  // Approval likelihood bar
+  &__likelihood {
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT;
+  }
+
+  &__likelihood-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__likelihood-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: $DARK_GREY;
+  }
+
+  &__likelihood-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: $TRANSACT_PRIMARY;
+  }
+
+  &__likelihood-track {
+    height: 8px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: $MERCURY;
+    overflow: hidden;
+  }
+
+  &__likelihood-bar {
+    height: 100%;
+    border-radius: 4px;
+    background-color: $TRANSACT_PRIMARY;
+    transition: width 0.5s ease;
+  }
+
+  // Details grid
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT * 2;
+  }
+
+  &__section-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $DARK_GREY;
+    display: flex;
+    align-items: center;
+    gap: $UNIT;
+  }
+
+  &__section-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $UNIT * 2;
+  }
+
+  &__stat {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px;
+    background-color: $WILD_SAND;
+    border-radius: 8px;
+  }
+
+  &__stat-label {
+    font-size: 0.75rem;
+    color: $BOULDER;
+  }
+
+  &__stat-value {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: $DARK_GREY;
+
+    &--highlight {
+      color: $MOSSY_GREEN;
+    }
+  }
+
+  // Affordability analysis
+  &__affordability {
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT * 2;
+    border-top: 1px solid $MERCURY;
+    padding-top: 16px;
+  }
+
+  &__factors {
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT;
+  }
+
+  &__factor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.875rem;
+  }
+
+  &__factor-label {
+    color: $BOULDER;
+  }
+
+  &__factor-value {
+    font-weight: 600;
+    color: $DARK_GREY;
+  }
+
+  &__factor-row {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  &__factor-icon {
+    width: 14px;
+    height: 14px;
+
+    &--good {
+      color: $MOSSY_GREEN;
+    }
+
+    &--bad {
+      color: $CREDIT_RED;
+    }
+  }
+
+  &__score {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 2px 10px;
+    border-radius: 9999px;
+    text-transform: capitalize;
+
+    &--excellent {
+      background-color: rgba($MOSSY_GREEN, 0.1);
+      color: $MOSSY_GREEN;
+    }
+
+    &--good {
+      background-color: rgba($TRANSACT_PRIMARY, 0.1);
+      color: $TRANSACT_PRIMARY;
+    }
+
+    &--fair {
+      background-color: rgba($PURE_ORANGE, 0.1);
+      color: $PURE_ORANGE;
+    }
+
+    &--poor {
+      background-color: rgba($CREDIT_RED, 0.1);
+      color: $CREDIT_RED;
+    }
+  }
+
+  // Recommendations
+  &__recommendations {
+    background-color: rgba($PURE_ORANGE, 0.08);
+    border: 1px solid rgba($PURE_ORANGE, 0.2);
+    border-radius: 8px;
+    padding: 16px;
+  }
+
+  &__recommendations-title {
+    font-weight: 600;
+    color: darken($PURE_ORANGE, 20%);
+    margin-bottom: 8px;
+    font-size: 0.875rem;
+  }
+
+  &__recommendations-list {
+    font-size: 0.875rem;
+    color: darken($PURE_ORANGE, 15%);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 0;
+  }
+}
+
+// Loan Products
+.loan-products {
+  &__skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__card {
+    border: 1px solid $MERCURY;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &__card-image-wrapper {
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  &__card-body {
+    padding: 16px;
+  }
+
+  &__card-name {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: $DARK_GREY;
+    margin: 0 0 4px;
+  }
+
+  &__card-desc {
+    font-size: 0.75rem;
+    color: $BOULDER;
+    margin: 0 0 12px;
+    line-height: 1.4;
+  }
+
+  &__card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 12px;
+    padding: 10px;
+    background-color: $WILD_SAND;
+    border-radius: 6px;
+  }
+
+  &__card-detail {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+  }
+
+  &__card-detail-label {
+    color: $BOULDER;
+  }
+
+  &__card-detail-value {
+    font-weight: 600;
+    color: $DARK_GREY;
+  }
+
+  &__purposes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  &__purpose-tag {
+    font-size: 0.6875rem;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 9999px;
+    background-color: rgba($DARK_VIOLET, 0.08);
+    color: $DARK_VIOLET;
+  }
+}
+
+// Results Page
+.loan-results-page {
+  &__actions {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid $MERCURY;
+  }
+}
+
+// Payment Calculator
+.payment-calculator {
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: $UNIT;
+  }
+
+  &__title-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__fields {
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT * 2;
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__result {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $UNIT * 2;
+  }
+
+  &__summary-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px;
+    background-color: $WILD_SAND;
+    border-radius: 8px;
+  }
+
+  &__summary-label {
+    font-size: 0.75rem;
+    color: $BOULDER;
+  }
+
+  &__summary-value {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $DARK_GREY;
+
+    &--highlight {
+      color: $TRANSACT_PRIMARY;
+    }
+  }
+
+  // Schedule table
+  &__schedule {
+    display: flex;
+    flex-direction: column;
+    gap: $UNIT * 2;
+  }
+
+  &__schedule-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $DARK_GREY;
+    margin: 0;
+  }
+
+  &__table-wrapper {
+    overflow-x: auto;
+    border: 1px solid $MERCURY;
+    border-radius: 8px;
+  }
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.75rem;
+
+    th {
+      background-color: $WILD_SAND;
+      padding: 8px 12px;
+      text-align: left;
+      font-weight: 600;
+      color: $DARK_GREY;
+      border-bottom: 1px solid $MERCURY;
+    }
+
+    td {
+      padding: 8px 12px;
+      color: $VERY_DARK_GREY;
+      border-bottom: 1px solid $WILD_SAND;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background-color: rgba($TRANSACT_PRIMARY, 0.03);
+    }
+  }
+}
