@@ -1,6 +1,6 @@
 # Capitec Bank | Customer Fun Portal
 
-A production-grade, responsive banking portal built with React and TypeScript. This project covers three distinct frontend briefs a **Customer Spending Insights Dashboard**, a **Loan Eligibility Simulator**, and a **Branch Locator Map** presented as a unified single-page application with consistent design, shared infrastructure, and a single Docker deployment.
+A production-grade, responsive banking portal built with React and TypeScript. This project covers three distinct frontend briefs a **Customer Spending Insights Dashboard**, a **Loan Eligibility Simulator** and a **Branch Locator Map** presented as a unified single-page application with consistent design, shared infrastructure and a single Docker deployment.
 
 ## Table of Contents
 
