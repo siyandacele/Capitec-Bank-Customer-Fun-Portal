@@ -1,0 +1,3473 @@
+[
+  {
+    "id": 1,
+    "type": "branch",
+    "name": "Cape Town Central",
+    "lat": -33.9249,
+    "lng": 18.4241,
+    "address": "123 Main St, Cape Town City Centre, 8001",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4567",
+    "email": "capetown.central@capitec.co.za"
+  },
+  {
+    "id": 2,
+    "type": "atm",
+    "name": "Sea Point",
+    "lat": -33.918,
+    "lng": 18.398,
+    "address": "78 Regent Rd, Sea Point, 8060",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 21 123 4568",
+    "email": "seapoint@capitec.co.za"
+  },
+  {
+    "id": 3,
+    "type": "branch",
+    "name": "Claremont",
+    "lat": -33.982,
+    "lng": 18.465,
+    "address": "45 Main Rd, Claremont, 7708",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4569",
+    "email": "claremont@capitec.co.za"
+  },
+  {
+    "id": 4,
+    "type": "atm",
+    "name": "Bellville",
+    "lat": -33.903,
+    "lng": 18.628,
+    "address": "12 Voortrekker Rd, Bellville, 7530",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4570",
+    "email": "bellville@capitec.co.za"
+  },
+  {
+    "id": 5,
+    "type": "branch",
+    "name": "Parow",
+    "lat": -33.895,
+    "lng": 18.612,
+    "address": "88 Voortrekker Rd, Parow, 7500",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4571",
+    "email": "parow@capitec.co.za"
+  },
+  {
+    "id": 6,
+    "type": "atm",
+    "name": "Durbanville",
+    "lat": -33.832,
+    "lng": 18.648,
+    "address": "22 Wellington Rd, Durbanville, 7550",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4572",
+    "email": "durbanville@capitec.co.za"
+  },
+  {
+    "id": 7,
+    "type": "branch",
+    "name": "Somerset West",
+    "lat": -34.085,
+    "lng": 18.842,
+    "address": "56 Main Rd, Somerset West, 7130",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4573",
+    "email": "somersetwest@capitec.co.za"
+  },
+  {
+    "id": 8,
+    "type": "atm",
+    "name": "Stellenbosch",
+    "lat": -33.935,
+    "lng": 18.86,
+    "address": "34 Church St, Stellenbosch, 7600",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4574",
+    "email": "stellenbosch@capitec.co.za"
+  },
+  {
+    "id": 9,
+    "type": "branch",
+    "name": "Cavendish",
+    "lat": -34.042,
+    "lng": 18.458,
+    "address": "Cavendish Square, Claremont, 7708",
+    "hours": "Mon-Sat: 9AM-5PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4575",
+    "email": "cavendish@capitec.co.za"
+  },
+  {
+    "id": 10,
+    "type": "atm",
+    "name": "Canal Walk",
+    "lat": -33.878,
+    "lng": 18.512,
+    "address": "Canal Walk Shopping Centre, Century City, 7441",
+    "hours": "Mon-Sat: 9AM-7PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4576",
+    "email": "canalwalk@capitec.co.za"
+  },
+  {
+    "id": 11,
+    "type": "branch",
+    "name": "Tyger Valley",
+    "lat": -33.868,
+    "lng": 18.638,
+    "address": "Tyger Valley Centre, Bellville, 7530",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4577",
+    "email": "tygervalley@capitec.co.za"
+  },
+  {
+    "id": 12,
+    "type": "atm",
+    "name": "V&A Waterfront",
+    "lat": -33.905,
+    "lng": 18.421,
+    "address": "V&A Waterfront, Cape Town, 8001",
+    "hours": "Mon-Sun: 9AM-6PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 21 123 4578",
+    "email": "waterfront@capitec.co.za"
+  },
+  {
+    "id": 13,
+    "type": "branch",
+    "name": "Observatory",
+    "lat": -33.938,
+    "lng": 18.472,
+    "address": "90 Lower Main Rd, Observatory, 7925",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4579",
+    "email": "observatory@capitec.co.za"
+  },
+  {
+    "id": 14,
+    "type": "atm",
+    "name": "Rondebosch",
+    "lat": -33.963,
+    "lng": 18.472,
+    "address": "44 Main Rd, Rondebosch, 7700",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4580",
+    "email": "rondebosch@capitec.co.za"
+  },
+  {
+    "id": 15,
+    "type": "branch",
+    "name": "Wynberg",
+    "lat": -34.002,
+    "lng": 18.468,
+    "address": "200 Main Rd, Wynberg, 7800",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4581",
+    "email": "wynberg@capitec.co.za"
+  },
+  {
+    "id": 16,
+    "type": "atm",
+    "name": "Constantia",
+    "lat": -34.028,
+    "lng": 18.448,
+    "address": "Constantia Village, Constantia, 7806",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4582",
+    "email": "constantia@capitec.co.za"
+  },
+  {
+    "id": 17,
+    "type": "branch",
+    "name": "Plumstead",
+    "lat": -34.022,
+    "lng": 18.472,
+    "address": "18 Main Rd, Plumstead, 7800",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4583",
+    "email": "plumstead@capitec.co.za"
+  },
+  {
+    "id": 18,
+    "type": "atm",
+    "name": "Fish Hoek",
+    "lat": -34.138,
+    "lng": 18.435,
+    "address": "12 Central Rd, Fish Hoek, 7975",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4584",
+    "email": "fishhoek@capitec.co.za"
+  },
+  {
+    "id": 19,
+    "type": "branch",
+    "name": "Simon's Town",
+    "lat": -34.195,
+    "lng": 18.435,
+    "address": "88 St George's St, Simon's Town, 7995",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4585",
+    "email": "simonstown@capitec.co.za"
+  },
+  {
+    "id": 20,
+    "type": "atm",
+    "name": "Mitchells Plain",
+    "lat": -34.048,
+    "lng": 18.612,
+    "address": "Town Centre, Mitchells Plain, 7785",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4586",
+    "email": "mitchellsplain@capitec.co.za"
+  },
+  {
+    "id": 21,
+    "type": "branch",
+    "name": "Khayelitsha",
+    "lat": -34.042,
+    "lng": 18.678,
+    "address": "Site C, Khayelitsha, 7784",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4587",
+    "email": "khayelitsha@capitec.co.za"
+  },
+  {
+    "id": 22,
+    "type": "atm",
+    "name": "Gugulethu",
+    "lat": -33.988,
+    "lng": 18.568,
+    "address": "NY 1, Gugulethu, 7750",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4588",
+    "email": "gugulethu@capitec.co.za"
+  },
+  {
+    "id": 23,
+    "type": "branch",
+    "name": "Langa",
+    "lat": -33.945,
+    "lng": 18.532,
+    "address": "Washington St, Langa, 7455",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4589",
+    "email": "langa@capitec.co.za"
+  },
+  {
+    "id": 24,
+    "type": "atm",
+    "name": "Paarl",
+    "lat": -33.735,
+    "lng": 18.958,
+    "address": "88 Main St, Paarl, 7646",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4590",
+    "email": "paarl@capitec.co.za"
+  },
+  {
+    "id": 25,
+    "type": "branch",
+    "name": "Wellington",
+    "lat": -33.642,
+    "lng": 18.985,
+    "address": "22 Main Rd, Wellington, 7655",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4591",
+    "email": "wellington@capitec.co.za"
+  },
+  {
+    "id": 26,
+    "type": "atm",
+    "name": "Malmesbury",
+    "lat": -33.455,
+    "lng": 18.728,
+    "address": "12 Church St, Malmesbury, 7300",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4592",
+    "email": "malmesbury@capitec.co.za"
+  },
+  {
+    "id": 27,
+    "type": "branch",
+    "name": "Worcester",
+    "lat": -33.645,
+    "lng": 19.448,
+    "address": "56 High St, Worcester, 6850",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 23 123 4593",
+    "email": "worcester@capitec.co.za"
+  },
+  {
+    "id": 28,
+    "type": "atm",
+    "name": "George",
+    "lat": -33.958,
+    "lng": 22.458,
+    "address": "78 York St, George, 6529",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 44 123 4594",
+    "email": "george@capitec.co.za"
+  },
+  {
+    "id": 29,
+    "type": "branch",
+    "name": "Knysna",
+    "lat": -34.035,
+    "lng": 23.048,
+    "address": "44 Main Rd, Knysna, 6570",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 44 123 4595",
+    "email": "knysna@capitec.co.za"
+  },
+  {
+    "id": 30,
+    "type": "atm",
+    "name": "Mossel Bay",
+    "lat": -34.182,
+    "lng": 22.145,
+    "address": "12 Marsh St, Mossel Bay, 6500",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 44 123 4596",
+    "email": "mosselbay@capitec.co.za"
+  },
+  {
+    "id": 31,
+    "type": "branch",
+    "name": "Oudtshoorn",
+    "lat": -33.585,
+    "lng": 22.202,
+    "address": "88 Baron van Reede St, Oudtshoorn, 6620",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 44 123 4597",
+    "email": "oudtshoorn@capitec.co.za"
+  },
+  {
+    "id": 32,
+    "type": "atm",
+    "name": "Kuils River",
+    "lat": -33.932,
+    "lng": 18.678,
+    "address": "22 Van Riebeeck Rd, Kuils River, 7580",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4598",
+    "email": "kuilsriver@capitec.co.za"
+  },
+  {
+    "id": 33,
+    "type": "branch",
+    "name": "Brackenfell",
+    "lat": -33.868,
+    "lng": 18.702,
+    "address": "Brackenfell Blvd, Brackenfell, 7560",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4599",
+    "email": "brackenfell@capitec.co.za"
+  },
+  {
+    "id": 34,
+    "type": "atm",
+    "name": "Goodwood",
+    "lat": -33.905,
+    "lng": 18.558,
+    "address": "45 Voortrekker Rd, Goodwood, 7460",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4600",
+    "email": "goodwood@capitec.co.za"
+  },
+  {
+    "id": 35,
+    "type": "branch",
+    "name": "Pinelands",
+    "lat": -33.938,
+    "lng": 18.512,
+    "address": "12 Forest Dr, Pinelands, 7405",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4601",
+    "email": "pinelands@capitec.co.za"
+  },
+  {
+    "id": 36,
+    "type": "atm",
+    "name": "Milnerton",
+    "lat": -33.872,
+    "lng": 18.502,
+    "address": "88 Koeberg Rd, Milnerton, 7441",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4602",
+    "email": "milnerton@capitec.co.za"
+  },
+  {
+    "id": 37,
+    "type": "branch",
+    "name": "Table View",
+    "lat": -33.818,
+    "lng": 18.488,
+    "address": "Table View Mall, Table View, 7439",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4603",
+    "email": "tableview@capitec.co.za"
+  },
+  {
+    "id": 38,
+    "type": "atm",
+    "name": "Blouberg",
+    "lat": -33.802,
+    "lng": 18.462,
+    "address": "22 Otto du Plessis Dr, Blouberg, 7441",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 21 123 4604",
+    "email": "blouberg@capitec.co.za"
+  },
+  {
+    "id": 39,
+    "type": "branch",
+    "name": "Langebaan",
+    "lat": -33.098,
+    "lng": 18.032,
+    "address": "12 Main Rd, Langebaan, 7357",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 22 123 4605",
+    "email": "langebaan@capitec.co.za"
+  },
+  {
+    "id": 40,
+    "type": "branch",
+    "name": "Johannesburg CBD",
+    "lat": -26.2041,
+    "lng": 28.0473,
+    "address": "456 High St, Johannesburg CBD, 2000",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4001",
+    "email": "johannesburg.cbd@capitec.co.za"
+  },
+  {
+    "id": 41,
+    "type": "branch",
+    "name": "Sandton City",
+    "lat": -26.1085,
+    "lng": 28.0558,
+    "address": "Sandton City, Sandton, 2196",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 11 123 4002",
+    "email": "sandtoncity@capitec.co.za"
+  },
+  {
+    "id": 42,
+    "type": "atm",
+    "name": "Rosebank",
+    "lat": -26.1458,
+    "lng": 28.0422,
+    "address": "88 Oxford Rd, Rosebank, 2196",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4003",
+    "email": "rosebank@capitec.co.za"
+  },
+  {
+    "id": 43,
+    "type": "branch",
+    "name": "Randburg",
+    "lat": -26.0954,
+    "lng": 28.0122,
+    "address": "22 Main Rd, Randburg, 2194",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4004",
+    "email": "randburg@capitec.co.za"
+  },
+  {
+    "id": 44,
+    "type": "atm",
+    "name": "Roodepoort",
+    "lat": -26.1625,
+    "lng": 27.8722,
+    "address": "56 Ontdekkers Rd, Roodepoort, 1724",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4005",
+    "email": "roodepoort@capitec.co.za"
+  },
+  {
+    "id": 45,
+    "type": "branch",
+    "name": "Edenvale",
+    "lat": -26.1388,
+    "lng": 28.1522,
+    "address": "12 Van Riebeeck Ave, Edenvale, 1610",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4006",
+    "email": "edenvale@capitec.co.za"
+  },
+  {
+    "id": 46,
+    "type": "atm",
+    "name": "Benoni",
+    "lat": -26.1885,
+    "lng": 28.3208,
+    "address": "44 Tom Jones St, Benoni, 1501",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4007",
+    "email": "benoni@capitec.co.za"
+  },
+  {
+    "id": 47,
+    "type": "branch",
+    "name": "Boksburg",
+    "lat": -26.2125,
+    "lng": 28.2582,
+    "address": "78 Commissioner St, Boksburg, 1460",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4008",
+    "email": "boksburg@capitec.co.za"
+  },
+  {
+    "id": 48,
+    "type": "atm",
+    "name": "Brakpan",
+    "lat": -26.2358,
+    "lng": 28.3682,
+    "address": "22 Boundary Rd, Brakpan, 1540",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4009",
+    "email": "brakpan@capitec.co.za"
+  },
+  {
+    "id": 49,
+    "type": "branch",
+    "name": "Kempton Park",
+    "lat": -26.1025,
+    "lng": 28.2322,
+    "address": "56 Voortrekker Rd, Kempton Park, 1620",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4010",
+    "email": "kemptonpark@capitec.co.za"
+  },
+  {
+    "id": 50,
+    "type": "atm",
+    "name": "Alberton",
+    "lat": -26.2685,
+    "lng": 28.1222,
+    "address": "88 Church St, Alberton, 1449",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4011",
+    "email": "alberton@capitec.co.za"
+  },
+  {
+    "id": 51,
+    "type": "branch",
+    "name": "Germiston",
+    "lat": -26.2185,
+    "lng": 28.1682,
+    "address": "12 Victoria St, Germiston, 1401",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4012",
+    "email": "germiston@capitec.co.za"
+  },
+  {
+    "id": 52,
+    "type": "atm",
+    "name": "Springs",
+    "lat": -26.2525,
+    "lng": 28.4422,
+    "address": "44 Main Reef Rd, Springs, 1559",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4013",
+    "email": "springs@capitec.co.za"
+  },
+  {
+    "id": 53,
+    "type": "branch",
+    "name": "Northcliff",
+    "lat": -26.1325,
+    "lng": 27.9582,
+    "address": "22 Beyers Naude Dr, Northcliff, 2195",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4014",
+    "email": "northcliff@capitec.co.za"
+  },
+  {
+    "id": 54,
+    "type": "atm",
+    "name": "Fourways",
+    "lat": -26.0225,
+    "lng": 28.0082,
+    "address": "Fourways Mall, Fourways, 2055",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4015",
+    "email": "fourways@capitec.co.za"
+  },
+  {
+    "id": 55,
+    "type": "branch",
+    "name": "Hyde Park",
+    "lat": -26.1325,
+    "lng": 28.0582,
+    "address": "Hyde Park Corner, Hyde Park, 2196",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4016",
+    "email": "hydepark@capitec.co.za"
+  },
+  {
+    "id": 56,
+    "type": "atm",
+    "name": "Eastgate",
+    "lat": -26.1425,
+    "lng": 28.1522,
+    "address": "Eastgate Shopping Centre, Bedfordview, 2008",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4017",
+    "email": "eastgate@capitec.co.za"
+  },
+  {
+    "id": 57,
+    "type": "branch",
+    "name": "Clearwater Mall",
+    "lat": -26.0825,
+    "lng": 27.8982,
+    "address": "Clearwater Mall, Roodepoort, 1724",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4018",
+    "email": "clearwatermall@capitec.co.za"
+  },
+  {
+    "id": 58,
+    "type": "atm",
+    "name": "Cresta",
+    "lat": -26.1225,
+    "lng": 27.9682,
+    "address": "Cresta Shopping Centre, Blackheath, 2195",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4019",
+    "email": "cresta@capitec.co.za"
+  },
+  {
+    "id": 59,
+    "type": "branch",
+    "name": "Southgate",
+    "lat": -26.2625,
+    "lng": 28.0582,
+    "address": "Southgate Mall, Johannesburg South, 2091",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4020",
+    "email": "southgate@capitec.co.za"
+  },
+  {
+    "id": 60,
+    "type": "atm",
+    "name": "Northgate",
+    "lat": -26.0825,
+    "lng": 28.0122,
+    "address": "Northgate Shopping Centre, Northriding, 2169",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4021",
+    "email": "northgate@capitec.co.za"
+  },
+  {
+    "id": 61,
+    "type": "branch",
+    "name": "Melrose Arch",
+    "lat": -26.1325,
+    "lng": 28.0782,
+    "address": "Melrose Arch, Johannesburg, 2196",
+    "hours": "Mon-Sun: 9AM-6PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 11 123 4022",
+    "email": "melrosearch@capitec.co.za"
+  },
+  {
+    "id": 62,
+    "type": "atm",
+    "name": "Soweto - Jabulani",
+    "lat": -26.2425,
+    "lng": 27.9082,
+    "address": "Jabulani Mall, Soweto, 1868",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4023",
+    "email": "soweto.jabulani@capitec.co.za"
+  },
+  {
+    "id": 63,
+    "type": "branch",
+    "name": "Soweto - Maponya",
+    "lat": -26.2585,
+    "lng": 27.9182,
+    "address": "Maponya Mall, Soweto, 1868",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4024",
+    "email": "soweto.maponya@capitec.co.za"
+  },
+  {
+    "id": 64,
+    "type": "atm",
+    "name": "Alexandra",
+    "lat": -26.1025,
+    "lng": 28.0982,
+    "address": "London Rd, Alexandra, 2090",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4025",
+    "email": "alexandra@capitec.co.za"
+  },
+  {
+    "id": 65,
+    "type": "branch",
+    "name": "Midrand",
+    "lat": -25.9825,
+    "lng": 28.1382,
+    "address": "Midrand Mall, Midrand, 1685",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4026",
+    "email": "midrand@capitec.co.za"
+  },
+  {
+    "id": 66,
+    "type": "atm",
+    "name": "Centurion Mall",
+    "lat": -25.8585,
+    "lng": 28.1882,
+    "address": "Centurion Mall, Centurion, 0157",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4027",
+    "email": "centurionmall@capitec.co.za"
+  },
+  {
+    "id": 67,
+    "type": "branch",
+    "name": "Montecasino",
+    "lat": -26.0125,
+    "lng": 28.0122,
+    "address": "Montecasino Blvd, Fourways, 2055",
+    "hours": "Mon-Sun: 9AM-8PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4028",
+    "email": "montecasino@capitec.co.za"
+  },
+  {
+    "id": 68,
+    "type": "atm",
+    "name": "Sandton Gautrain",
+    "lat": -26.1085,
+    "lng": 28.0558,
+    "address": "Sandton Station, Sandton, 2196",
+    "hours": "Mon-Fri: 6AM-8PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals"
+    ],
+    "phone": "+27 11 123 4029",
+    "email": "sandton.gautrain@capitec.co.za"
+  },
+  {
+    "id": 69,
+    "type": "branch",
+    "name": "Parkhurst",
+    "lat": -26.1425,
+    "lng": 28.0422,
+    "address": "44 4th Ave, Parkhurst, 2193",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4030",
+    "email": "parkhurst@capitec.co.za"
+  },
+  {
+    "id": 70,
+    "type": "atm",
+    "name": "Greenside",
+    "lat": -26.1385,
+    "lng": 28.0322,
+    "address": "22 Greenway Rd, Greenside, 2193",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4031",
+    "email": "greenside@capitec.co.za"
+  },
+  {
+    "id": 71,
+    "type": "branch",
+    "name": "Emmarentia",
+    "lat": -26.1525,
+    "lng": 28.0182,
+    "address": "88 Barry Hertzog Ave, Emmarentia, 2195",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4032",
+    "email": "emmarentia@capitec.co.za"
+  },
+  {
+    "id": 72,
+    "type": "atm",
+    "name": "Florida",
+    "lat": -26.1725,
+    "lng": 27.9082,
+    "address": "Florida Rd, Florida, 1710",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4033",
+    "email": "florida@capitec.co.za"
+  },
+  {
+    "id": 73,
+    "type": "branch",
+    "name": "Krugersdorp",
+    "lat": -26.1025,
+    "lng": 27.7682,
+    "address": "22 Paardekraal Dr, Krugersdorp, 1740",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4034",
+    "email": "krugersdorp@capitec.co.za"
+  },
+  {
+    "id": 74,
+    "type": "atm",
+    "name": "Randfontein",
+    "lat": -26.1825,
+    "lng": 27.7022,
+    "address": "56 Main St, Randfontein, 1760",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4035",
+    "email": "randfontein@capitec.co.za"
+  },
+  {
+    "id": 75,
+    "type": "branch",
+    "name": "Carletonville",
+    "lat": -26.4025,
+    "lng": 27.3982,
+    "address": "12 Commissioner St, Carletonville, 2500",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4036",
+    "email": "carletonville@capitec.co.za"
+  },
+  {
+    "id": 76,
+    "type": "atm",
+    "name": "Vereeniging",
+    "lat": -26.6725,
+    "lng": 27.9282,
+    "address": "88 Voortrekker St, Vereeniging, 1930",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4037",
+    "email": "vereeniging@capitec.co.za"
+  },
+  {
+    "id": 77,
+    "type": "branch",
+    "name": "Vanderbijlpark",
+    "lat": -26.7025,
+    "lng": 27.8382,
+    "address": "44 President St, Vanderbijlpark, 1911",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4038",
+    "email": "vanderbijlpark@capitec.co.za"
+  },
+  {
+    "id": 78,
+    "type": "atm",
+    "name": "Klerksdorp",
+    "lat": -26.8525,
+    "lng": 26.6682,
+    "address": "22 Church St, Klerksdorp, 2570",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4039",
+    "email": "klerksdorp@capitec.co.za"
+  },
+  {
+    "id": 79,
+    "type": "branch",
+    "name": "Potchefstroom",
+    "lat": -26.7158,
+    "lng": 27.1022,
+    "address": "56 James Moroka Ave, Potchefstroom, 2531",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4040",
+    "email": "potchefstroom@capitec.co.za"
+  },
+  {
+    "id": 80,
+    "type": "atm",
+    "name": "Welkom",
+    "lat": -27.9825,
+    "lng": 26.7382,
+    "address": "12 Church St, Welkom, 9460",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4041",
+    "email": "welkom@capitec.co.za"
+  },
+  {
+    "id": 81,
+    "type": "branch",
+    "name": "Virginia",
+    "lat": -28.1025,
+    "lng": 26.8582,
+    "address": "88 Main St, Virginia, 9430",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4042",
+    "email": "virginia@capitec.co.za"
+  },
+  {
+    "id": 82,
+    "type": "atm",
+    "name": "Kroonstad",
+    "lat": -27.6525,
+    "lng": 27.2322,
+    "address": "22 Church St, Kroonstad, 9500",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4043",
+    "email": "kroonstad@capitec.co.za"
+  },
+  {
+    "id": 83,
+    "type": "branch",
+    "name": "Parys",
+    "lat": -26.9025,
+    "lng": 27.4582,
+    "address": "44 Bree St, Parys, 9585",
+    "hours": "Mon-Fri: 8AM-6PM, Sat: 8AM-12PM",
+    "services": [
+      "Loans",
+      "Consulting",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 11 123 4044",
+    "email": "parys@capitec.co.za"
+  },
+  {
+    "id": 84,
+    "type": "branch",
+    "name": "Pretoria Central",
+    "lat": -25.7479,
+    "lng": 28.2293,
+    "address": "22 Church St, Pretoria Central, 0002",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5001",
+    "email": "pretoria.central@capitec.co.za"
+  },
+  {
+    "id": 85,
+    "type": "atm",
+    "name": "Arcadia",
+    "lat": -25.7425,
+    "lng": 28.2182,
+    "address": "88 Church St, Arcadia, 0083",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5002",
+    "email": "arcadia@capitec.co.za"
+  },
+  {
+    "id": 86,
+    "type": "branch",
+    "name": "Menlyn Park",
+    "lat": -25.7825,
+    "lng": 28.2782,
+    "address": "Menlyn Park Shopping Centre, Pretoria, 0063",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5003",
+    "email": "menlynpark@capitec.co.za"
+  },
+  {
+    "id": 87,
+    "type": "atm",
+    "name": "Centurion",
+    "lat": -25.8585,
+    "lng": 28.1882,
+    "address": "44 Lenchen Ave, Centurion, 0157",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5004",
+    "email": "centurion@capitec.co.za"
+  },
+  {
+    "id": 88,
+    "type": "branch",
+    "name": "Brooklyn",
+    "lat": -25.7625,
+    "lng": 28.2482,
+    "address": "12 Bronkhorst St, Brooklyn, 0181",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5005",
+    "email": "brooklyn@capitec.co.za"
+  },
+  {
+    "id": 89,
+    "type": "atm",
+    "name": "Hatfield",
+    "lat": -25.7485,
+    "lng": 28.2382,
+    "address": "56 Burnett St, Hatfield, 0028",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5006",
+    "email": "hatfield@capitec.co.za"
+  },
+  {
+    "id": 90,
+    "type": "branch",
+    "name": "Sunnyside",
+    "lat": -25.7525,
+    "lng": 28.2282,
+    "address": "88 Pretorius St, Sunnyside, 0002",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5007",
+    "email": "sunnyside@capitec.co.za"
+  },
+  {
+    "id": 91,
+    "type": "atm",
+    "name": "Wonderboom",
+    "lat": -25.6525,
+    "lng": 28.1982,
+    "address": "22 Lavender Rd, Wonderboom, 0084",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5008",
+    "email": "wonderboom@capitec.co.za"
+  },
+  {
+    "id": 92,
+    "type": "branch",
+    "name": "Gezina",
+    "lat": -25.7725,
+    "lng": 28.2582,
+    "address": "44 Steve Biko Rd, Gezina, 0035",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5009",
+    "email": "gezina@capitec.co.za"
+  },
+  {
+    "id": 93,
+    "type": "atm",
+    "name": "Montana",
+    "lat": -25.7025,
+    "lng": 28.2682,
+    "address": "Montana Park, Pretoria, 0182",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5010",
+    "email": "montana@capitec.co.za"
+  },
+  {
+    "id": 94,
+    "type": "branch",
+    "name": "Silver Lakes",
+    "lat": -25.7825,
+    "lng": 28.3182,
+    "address": "Silver Lakes Mall, Pretoria East, 0081",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5011",
+    "email": "silverlakes@capitec.co.za"
+  },
+  {
+    "id": 95,
+    "type": "atm",
+    "name": "Kolonnade",
+    "lat": -25.7225,
+    "lng": 28.2582,
+    "address": "Kolonnade Centre, Montana, 0182",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5012",
+    "email": "kolonnade@capitec.co.za"
+  },
+  {
+    "id": 96,
+    "type": "branch",
+    "name": "Irene Village Mall",
+    "lat": -25.8825,
+    "lng": 28.2182,
+    "address": "Irene Village Mall, Centurion, 0157",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5013",
+    "email": "irenevillagemall@capitec.co.za"
+  },
+  {
+    "id": 97,
+    "type": "atm",
+    "name": "Woodlands Blvd",
+    "lat": -25.8025,
+    "lng": 28.2482,
+    "address": "Woodlands Blvd, Pretoria East, 0081",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5014",
+    "email": "woodlandsblvd@capitec.co.za"
+  },
+  {
+    "id": 98,
+    "type": "branch",
+    "name": "Lynnwood",
+    "lat": -25.7625,
+    "lng": 28.2682,
+    "address": "88 Lynnwood Rd, Lynnwood, 0081",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5015",
+    "email": "lynnwood@capitec.co.za"
+  },
+  {
+    "id": 99,
+    "type": "atm",
+    "name": "Garsfontein",
+    "lat": -25.8025,
+    "lng": 28.2982,
+    "address": "22 Garsfontein Rd, Garsfontein, 0082",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5016",
+    "email": "garsfontein@capitec.co.za"
+  },
+  {
+    "id": 100,
+    "type": "branch",
+    "name": "Mamelodi",
+    "lat": -25.7025,
+    "lng": 28.3482,
+    "address": "Mamelodi Plaza, Mamelodi, 0122",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5017",
+    "email": "mamelodi@capitec.co.za"
+  },
+  {
+    "id": 101,
+    "type": "atm",
+    "name": "Soshanguve",
+    "lat": -25.5325,
+    "lng": 28.1082,
+    "address": "Soshanguve Plaza, Soshanguve, 0152",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5018",
+    "email": "soshanguve@capitec.co.za"
+  },
+  {
+    "id": 102,
+    "type": "branch",
+    "name": "Atteridgeville",
+    "lat": -25.7725,
+    "lng": 28.1282,
+    "address": "22 Proes St, Atteridgeville, 0008",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5019",
+    "email": "atteridgeville@capitec.co.za"
+  },
+  {
+    "id": 103,
+    "type": "atm",
+    "name": "Cullinan",
+    "lat": -25.6725,
+    "lng": 28.5182,
+    "address": "12 Oak Ave, Cullinan, 1000",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5020",
+    "email": "cullinan@capitec.co.za"
+  },
+  {
+    "id": 104,
+    "type": "branch",
+    "name": "Bronkhorstspruit",
+    "lat": -25.8025,
+    "lng": 28.7482,
+    "address": "44 Church St, Bronkhorstspruit, 1020",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5021",
+    "email": "bronkhorstspruit@capitec.co.za"
+  },
+  {
+    "id": 105,
+    "type": "atm",
+    "name": "Witbank",
+    "lat": -25.8725,
+    "lng": 29.2282,
+    "address": "88 Church St, Witbank, 1035",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5022",
+    "email": "witbank@capitec.co.za"
+  },
+  {
+    "id": 106,
+    "type": "branch",
+    "name": "Middelburg",
+    "lat": -25.7685,
+    "lng": 29.4682,
+    "address": "12 Voortrekker St, Middelburg, 1050",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5023",
+    "email": "middelburg@capitec.co.za"
+  },
+  {
+    "id": 107,
+    "type": "atm",
+    "name": "Groblersdal",
+    "lat": -25.1685,
+    "lng": 29.3982,
+    "address": "56 Kerk St, Groblersdal, 0470",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5024",
+    "email": "groblersdal@capitec.co.za"
+  },
+  {
+    "id": 108,
+    "type": "branch",
+    "name": "Modimolle",
+    "lat": -24.7025,
+    "lng": 28.4082,
+    "address": "22 Voortrekker St, Modimolle, 0510",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5025",
+    "email": "modimolle@capitec.co.za"
+  },
+  {
+    "id": 109,
+    "type": "atm",
+    "name": "Bela-Bela",
+    "lat": -24.8825,
+    "lng": 28.2982,
+    "address": "44 Church St, Bela-Bela, 0480",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5026",
+    "email": "belabela@capitec.co.za"
+  },
+  {
+    "id": 110,
+    "type": "branch",
+    "name": "Thaba Tshwane",
+    "lat": -25.7825,
+    "lng": 28.1982,
+    "address": "DF Malan Dr, Thaba Tshwane, 0143",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5027",
+    "email": "thabatshwane@capitec.co.za"
+  },
+  {
+    "id": 111,
+    "type": "atm",
+    "name": "Waterkloof",
+    "lat": -25.7825,
+    "lng": 28.2682,
+    "address": "44 Garsfontein Rd, Waterkloof, 0181",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-1PM",
+    "services": [
+      "Consulting",
+      "Loans",
+      "ATM",
+      "Deposits"
+    ],
+    "phone": "+27 12 123 5028",
+    "email": "waterkloof@capitec.co.za"
+  },
+  {
+    "id": 112,
+    "type": "branch",
+    "name": "Durban CBD",
+    "lat": -29.8587,
+    "lng": 31.0218,
+    "address": "100 West St, Durban Central, 4001",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6001",
+    "email": "durban.cbd@capitec.co.za"
+  },
+  {
+    "id": 113,
+    "type": "atm",
+    "name": "Durban North",
+    "lat": -29.8485,
+    "lng": 31.0382,
+    "address": "78 Umhlanga Dr, Durban North, 4051",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6002",
+    "email": "durbannorth@capitec.co.za"
+  },
+  {
+    "id": 114,
+    "type": "branch",
+    "name": "Umhlanga",
+    "lat": -29.7285,
+    "lng": 31.0882,
+    "address": "22 Lighthouse Rd, Umhlanga, 4320",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange",
+      "Consulting"
+    ],
+    "phone": "+27 31 123 6003",
+    "email": "umhlanga@capitec.co.za"
+  },
+  {
+    "id": 115,
+    "type": "atm",
+    "name": "Westville",
+    "lat": -29.8385,
+    "lng": 30.9482,
+    "address": "44 Jan Smuts Hwy, Westville, 3630",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6004",
+    "email": "westville@capitec.co.za"
+  },
+  {
+    "id": 116,
+    "type": "branch",
+    "name": "Pinetown",
+    "lat": -29.8125,
+    "lng": 30.8582,
+    "address": "88 Old Main Rd, Pinetown, 3610",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6005",
+    "email": "pinetown@capitec.co.za"
+  },
+  {
+    "id": 117,
+    "type": "atm",
+    "name": "Berea",
+    "lat": -29.8525,
+    "lng": 31.0082,
+    "address": "12 Berea Rd, Berea, 4001",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6006",
+    "email": "berea@capitec.co.za"
+  },
+  {
+    "id": 118,
+    "type": "branch",
+    "name": "Morningside",
+    "lat": -29.8425,
+    "lng": 31.0182,
+    "address": "56 Musgrave Rd, Morningside, 4001",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6007",
+    "email": "morningside@capitec.co.za"
+  },
+  {
+    "id": 119,
+    "type": "atm",
+    "name": "Gateway Theatre of Shopping",
+    "lat": -29.7185,
+    "lng": 31.0782,
+    "address": "Gateway Theatre of Shopping, Umhlanga, 4320",
+    "hours": "Mon-Sat: 9AM-7PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6008",
+    "email": "gateway@capitec.co.za"
+  },
+  {
+    "id": 120,
+    "type": "branch",
+    "name": "Pavilion",
+    "lat": -29.8025,
+    "lng": 30.8782,
+    "address": "Pavilion Shopping Centre, Westville, 3629",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6009",
+    "email": "pavilion@capitec.co.za"
+  },
+  {
+    "id": 121,
+    "type": "atm",
+    "name": "Chatsworth",
+    "lat": -29.9125,
+    "lng": 30.8982,
+    "address": "Chatsworth Centre, Chatsworth, 4092",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6010",
+    "email": "chatsworth@capitec.co.za"
+  },
+  {
+    "id": 122,
+    "type": "branch",
+    "name": "Phoenix",
+    "lat": -29.7225,
+    "lng": 31.0082,
+    "address": "Phoenix Plaza, Phoenix, 4068",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6011",
+    "email": "phoenix@capitec.co.za"
+  },
+  {
+    "id": 123,
+    "type": "atm",
+    "name": "Tongaat",
+    "lat": -29.5825,
+    "lng": 31.1282,
+    "address": "22 Main Rd, Tongaat, 4400",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6012",
+    "email": "tongaat@capitec.co.za"
+  },
+  {
+    "id": 124,
+    "type": "branch",
+    "name": "Ballito",
+    "lat": -29.5325,
+    "lng": 31.2182,
+    "address": "Ballito Junction, Ballito, 4420",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6013",
+    "email": "ballito@capitec.co.za"
+  },
+  {
+    "id": 125,
+    "type": "atm",
+    "name": "Richards Bay",
+    "lat": -28.7825,
+    "lng": 32.0382,
+    "address": "88 Mckenzie St, Richards Bay, 3900",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6014",
+    "email": "richardsbay@capitec.co.za"
+  },
+  {
+    "id": 126,
+    "type": "branch",
+    "name": "Empangeni",
+    "lat": -28.7525,
+    "lng": 31.8982,
+    "address": "44 Main St, Empangeni, 3880",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6015",
+    "email": "empangeni@capitec.co.za"
+  },
+  {
+    "id": 127,
+    "type": "atm",
+    "name": "Stanger",
+    "lat": -29.3285,
+    "lng": 31.2882,
+    "address": "12 King Shaka St, Stanger, 4450",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6016",
+    "email": "stanger@capitec.co.za"
+  },
+  {
+    "id": 128,
+    "type": "branch",
+    "name": "Port Shepstone",
+    "lat": -30.7425,
+    "lng": 30.4582,
+    "address": "88 Main St, Port Shepstone, 4240",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6017",
+    "email": "portshepstone@capitec.co.za"
+  },
+  {
+    "id": 129,
+    "type": "atm",
+    "name": "Scottburgh",
+    "lat": -30.2825,
+    "lng": 30.7582,
+    "address": "22 Main Rd, Scottburgh, 4180",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6018",
+    "email": "scottburgh@capitec.co.za"
+  },
+  {
+    "id": 130,
+    "type": "branch",
+    "name": "Margate",
+    "lat": -30.8585,
+    "lng": 30.3682,
+    "address": "44 Marine Dr, Margate, 4275",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6019",
+    "email": "margate@capitec.co.za"
+  },
+  {
+    "id": 131,
+    "type": "atm",
+    "name": "Newcastle",
+    "lat": -27.7525,
+    "lng": 29.9282,
+    "address": "88 Scott St, Newcastle, 2940",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6020",
+    "email": "newcastle@capitec.co.za"
+  },
+  {
+    "id": 132,
+    "type": "branch",
+    "name": "Ladysmith",
+    "lat": -28.5585,
+    "lng": 29.7782,
+    "address": "22 Murchison St, Ladysmith, 3370",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6021",
+    "email": "ladysmith@capitec.co.za"
+  },
+  {
+    "id": 133,
+    "type": "atm",
+    "name": "Pietermaritzburg",
+    "lat": -29.6025,
+    "lng": 30.3782,
+    "address": "56 Church St, Pietermaritzburg, 3201",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6022",
+    "email": "pietermaritzburg@capitec.co.za"
+  },
+  {
+    "id": 134,
+    "type": "branch",
+    "name": "Howick",
+    "lat": -29.4785,
+    "lng": 30.2282,
+    "address": "12 Main Rd, Howick, 3290",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6023",
+    "email": "howick@capitec.co.za"
+  },
+  {
+    "id": 135,
+    "type": "atm",
+    "name": "Hillcrest",
+    "lat": -29.7825,
+    "lng": 30.7682,
+    "address": "44 Old Main Rd, Hillcrest, 3650",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6024",
+    "email": "hillcrest@capitec.co.za"
+  },
+  {
+    "id": 136,
+    "type": "branch",
+    "name": "Kloof",
+    "lat": -29.8025,
+    "lng": 30.8582,
+    "address": "22 Village Rd, Kloof, 3610",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6025",
+    "email": "kloof@capitec.co.za"
+  },
+  {
+    "id": 137,
+    "type": "atm",
+    "name": "Amanzimtoti",
+    "lat": -30.0525,
+    "lng": 30.8882,
+    "address": "88 Kingsway, Amanzimtoti, 4125",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6026",
+    "email": "amanzimtoti@capitec.co.za"
+  },
+  {
+    "id": 138,
+    "type": "branch",
+    "name": "Umlazi",
+    "lat": -29.9625,
+    "lng": 30.8982,
+    "address": "Umlazi Mega City, Umlazi, 4031",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6027",
+    "email": "umlazi@capitec.co.za"
+  },
+  {
+    "id": 139,
+    "type": "atm",
+    "name": "Verulam",
+    "lat": -29.6485,
+    "lng": 31.0582,
+    "address": "12 Main Rd, Verulam, 4340",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6028",
+    "email": "verulam@capitec.co.za"
+  },
+  {
+    "id": 140,
+    "type": "branch",
+    "name": "Dundee",
+    "lat": -28.1585,
+    "lng": 30.2382,
+    "address": "44 Victoria St, Dundee, 3000",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Foreign Exchange"
+    ],
+    "phone": "+27 31 123 6029",
+    "email": "dundee@capitec.co.za"
+  },
+  {
+    "id": 141,
+    "type": "branch",
+    "name": "Port Elizabeth Main",
+    "lat": -33.9611,
+    "lng": 25.6149,
+    "address": "44 Govan Mbeki Ave, Port Elizabeth Central, 6001",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 41 507 1234",
+    "email": "portelizabeth.main@capitec.co.za"
+  },
+  {
+    "id": 142,
+    "type": "atm",
+    "name": "Greenacres",
+    "lat": -33.9525,
+    "lng": 25.5982,
+    "address": "Greenacres Shopping Centre, Port Elizabeth, 6045",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 41 507 1235",
+    "email": "greenacres@capitec.co.za"
+  },
+  {
+    "id": 143,
+    "type": "branch",
+    "name": "Walmer",
+    "lat": -33.9825,
+    "lng": 25.5782,
+    "address": "22 Main Rd, Walmer, 6070",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 41 507 1236",
+    "email": "walmer@capitec.co.za"
+  },
+  {
+    "id": 144,
+    "type": "atm",
+    "name": "Summerstrand",
+    "lat": -33.9825,
+    "lng": 25.6582,
+    "address": "88 Marine Dr, Summerstrand, 6019",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 41 507 1237",
+    "email": "summerstrand@capitec.co.za"
+  },
+  {
+    "id": 145,
+    "type": "branch",
+    "name": "Uitenhage",
+    "lat": -33.7685,
+    "lng": 25.3982,
+    "address": "44 Caledon St, Uitenhage, 6229",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 41 507 1238",
+    "email": "uitenhage@capitec.co.za"
+  },
+  {
+    "id": 146,
+    "type": "atm",
+    "name": "Despatch",
+    "lat": -33.7985,
+    "lng": 25.4482,
+    "address": "12 Main Rd, Despatch, 6220",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 41 507 1239",
+    "email": "despatch@capitec.co.za"
+  },
+  {
+    "id": 147,
+    "type": "branch",
+    "name": "Motherwell",
+    "lat": -33.8185,
+    "lng": 25.5782,
+    "address": "Motherwell Mall, Motherwell, 6211",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 41 507 1240",
+    "email": "motherwell@capitec.co.za"
+  },
+  {
+    "id": 148,
+    "type": "atm",
+    "name": "Grahamstown",
+    "lat": -33.3085,
+    "lng": 26.5282,
+    "address": "56 High St, Grahamstown, 6139",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 46 123 1241",
+    "email": "grahamstown@capitec.co.za"
+  },
+  {
+    "id": 149,
+    "type": "branch",
+    "name": "Jeffreys Bay",
+    "lat": -34.0525,
+    "lng": 24.9182,
+    "address": "22 Da Gama Rd, Jeffreys Bay, 6330",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 42 123 1242",
+    "email": "jeffreysbay@capitec.co.za"
+  },
+  {
+    "id": 150,
+    "type": "atm",
+    "name": "Humansdorp",
+    "lat": -34.0325,
+    "lng": 24.7682,
+    "address": "88 Main Rd, Humansdorp, 6300",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 42 123 1243",
+    "email": "humansdorp@capitec.co.za"
+  },
+  {
+    "id": 151,
+    "type": "branch",
+    "name": "Graaff-Reinet",
+    "lat": -32.2525,
+    "lng": 24.5382,
+    "address": "12 Church St, Graaff-Reinet, 6280",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 49 123 1244",
+    "email": "graaffreinet@capitec.co.za"
+  },
+  {
+    "id": 152,
+    "type": "atm",
+    "name": "Cradock",
+    "lat": -32.1685,
+    "lng": 25.6182,
+    "address": "44 Stockenstrom St, Cradock, 5880",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 48 123 1245",
+    "email": "cradock@capitec.co.za"
+  },
+  {
+    "id": 153,
+    "type": "branch",
+    "name": "Port Alfred",
+    "lat": -33.5985,
+    "lng": 26.8982,
+    "address": "22 Main Rd, Port Alfred, 6170",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 46 123 1246",
+    "email": "portalfred@capitec.co.za"
+  },
+  {
+    "id": 154,
+    "type": "atm",
+    "name": "Alice",
+    "lat": -32.7885,
+    "lng": 26.8382,
+    "address": "12 Main Rd, Alice, 5700",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 40 123 1247",
+    "email": "alice@capitec.co.za"
+  },
+  {
+    "id": 155,
+    "type": "branch",
+    "name": "Queenstown",
+    "lat": -31.8985,
+    "lng": 26.8782,
+    "address": "88 Cathcart Rd, Queenstown, 5320",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 45 123 1248",
+    "email": "queenstown@capitec.co.za"
+  },
+  {
+    "id": 156,
+    "type": "atm",
+    "name": "East London Gateway",
+    "lat": -33.0185,
+    "lng": 27.9082,
+    "address": "East London Gateway, East London, 5241",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 43 123 1249",
+    "email": "eastlondongateway@capitec.co.za"
+  },
+  {
+    "id": 157,
+    "type": "branch",
+    "name": "Somerset East",
+    "lat": -32.7225,
+    "lng": 25.5882,
+    "address": "12 Church St, Somerset East, 5850",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Loans",
+      "Consulting"
+    ],
+    "phone": "+27 42 123 1250",
+    "email": "somerseteast@capitec.co.za"
+  },
+  {
+    "id": 158,
+    "type": "atm",
+    "name": "Addo",
+    "lat": -33.5685,
+    "lng": 25.6982,
+    "address": "Main Rd, Addo, 6105",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals"
+    ],
+    "phone": "+27 42 123 1251",
+    "email": "addo@capitec.co.za"
+  },
+  {
+    "id": 159,
+    "type": "branch",
+    "name": "Bloemfontein Central",
+    "lat": -29.1167,
+    "lng": 26.2167,
+    "address": "15 Maitland St, Bloemfontein Central, 9301",
+    "hours": "Mon-Fri: 8AM-4:30PM, Sat: 8AM-11AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 51 123 7001",
+    "email": "bloemfontein.central@capitec.co.za"
+  },
+  {
+    "id": 160,
+    "type": "atm",
+    "name": "Bloemfontein Loch Logan",
+    "lat": -29.1085,
+    "lng": 26.2282,
+    "address": "Loch Logan Waterfront, Bloemfontein, 9301",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 51 123 7002",
+    "email": "bloemfontein.lochlogan@capitec.co.za"
+  },
+  {
+    "id": 161,
+    "type": "branch",
+    "name": "Brandwag",
+    "lat": -29.1225,
+    "lng": 26.2082,
+    "address": "44 Parfitt Ave, Brandwag, 9301",
+    "hours": "Mon-Fri: 8AM-4:30PM, Sat: 8AM-11AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 51 123 7003",
+    "email": "brandwag@capitec.co.za"
+  },
+  {
+    "id": 162,
+    "type": "atm",
+    "name": "Langenhovenpark",
+    "lat": -29.1025,
+    "lng": 26.2482,
+    "address": "22 Kellner St, Langenhovenpark, 9330",
+    "hours": "Mon-Fri: 8AM-4:30PM, Sat: 8AM-11AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 51 123 7004",
+    "email": "langenhovenpark@capitec.co.za"
+  },
+  {
+    "id": 163,
+    "type": "branch",
+    "name": "Bayswater",
+    "lat": -29.1325,
+    "lng": 26.1982,
+    "address": "88 Nelson Mandela Dr, Bayswater, 9301",
+    "hours": "Mon-Fri: 8AM-4:30PM, Sat: 8AM-11AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 51 123 7005",
+    "email": "bayswater@capitec.co.za"
+  },
+  {
+    "id": 164,
+    "type": "atm",
+    "name": "Westdene",
+    "lat": -29.1125,
+    "lng": 26.2182,
+    "address": "12 St Andrew St, Westdene, 9301",
+    "hours": "Mon-Fri: 8AM-4:30PM, Sat: 8AM-11AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 51 123 7006",
+    "email": "westdene@capitec.co.za"
+  },
+  {
+    "id": 165,
+    "type": "branch",
+    "name": "Botshabelo",
+    "lat": -29.2325,
+    "lng": 26.7182,
+    "address": "Botshabelo Mall, Botshabelo, 9781",
+    "hours": "Mon-Fri: 8AM-4:30PM, Sat: 8AM-11AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 51 123 7007",
+    "email": "botshabelo@capitec.co.za"
+  },
+  {
+    "id": 166,
+    "type": "atm",
+    "name": "Bethlehem",
+    "lat": -28.2325,
+    "lng": 28.3082,
+    "address": "56 Joubert St, Bethlehem, 9700",
+    "hours": "Mon-Fri: 8AM-4:30PM, Sat: 8AM-11AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 51 123 7008",
+    "email": "bethlehem@capitec.co.za"
+  },
+  {
+    "id": 167,
+    "type": "branch",
+    "name": "Welkom",
+    "lat": -27.9825,
+    "lng": 26.7382,
+    "address": "12 Church St, Welkom, 9460",
+    "hours": "Mon-Fri: 8AM-4:30PM, Sat: 8AM-11AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 51 123 7009",
+    "email": "welkom@capitec.co.za"
+  },
+  {
+    "id": 168,
+    "type": "atm",
+    "name": "Kroonstad",
+    "lat": -27.6525,
+    "lng": 27.2322,
+    "address": "22 Church St, Kroonstad, 9500",
+    "hours": "Mon-Fri: 8AM-4:30PM, Sat: 8AM-11AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 51 123 7010",
+    "email": "kroonstad@capitec.co.za"
+  },
+  {
+    "id": 169,
+    "type": "branch",
+    "name": "Ladybrand",
+    "lat": -29.1985,
+    "lng": 27.4582,
+    "address": "44 McKenzie St, Ladybrand, 9745",
+    "hours": "Mon-Fri: 8AM-4:30PM, Sat: 8AM-11AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 51 123 7011",
+    "email": "ladybrand@capitec.co.za"
+  },
+  {
+    "id": 170,
+    "type": "atm",
+    "name": "Thaba Nchu",
+    "lat": -29.2085,
+    "lng": 26.8382,
+    "address": "22 Main Rd, Thaba Nchu, 9780",
+    "hours": "Mon-Fri: 8AM-4:30PM, Sat: 8AM-11AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 51 123 7012",
+    "email": "thabanchu@capitec.co.za"
+  },
+  {
+    "id": 171,
+    "type": "branch",
+    "name": "East London CBD",
+    "lat": -33.0185,
+    "lng": 27.9082,
+    "address": "88 Oxford St, East London, 5201",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 43 123 8001",
+    "email": "eastlondon.cbd@capitec.co.za"
+  },
+  {
+    "id": 172,
+    "type": "atm",
+    "name": "Vincent Park",
+    "lat": -33.0085,
+    "lng": 27.9182,
+    "address": "Vincent Park Shopping Centre, East London, 5241",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 43 123 8002",
+    "email": "vincentpark@capitec.co.za"
+  },
+  {
+    "id": 173,
+    "type": "branch",
+    "name": "Gonubie",
+    "lat": -32.9485,
+    "lng": 28.0182,
+    "address": "22 Main Rd, Gonubie, 5256",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 43 123 8003",
+    "email": "gonubie@capitec.co.za"
+  },
+  {
+    "id": 174,
+    "type": "atm",
+    "name": "Mdantsane",
+    "lat": -32.9585,
+    "lng": 27.7582,
+    "address": "Mdantsane City, Mdantsane, 5219",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 43 123 8004",
+    "email": "mdantsane@capitec.co.za"
+  },
+  {
+    "id": 175,
+    "type": "branch",
+    "name": "Quigney",
+    "lat": -33.0285,
+    "lng": 27.9282,
+    "address": "44 Esplanade, Quigney, 5201",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 43 123 8005",
+    "email": "quigney@capitec.co.za"
+  },
+  {
+    "id": 176,
+    "type": "atm",
+    "name": "Cambridge",
+    "lat": -32.9785,
+    "lng": 27.8982,
+    "address": "12 Cambridge St, East London, 5201",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 43 123 8006",
+    "email": "cambridge@capitec.co.za"
+  },
+  {
+    "id": 177,
+    "type": "branch",
+    "name": "King William's Town",
+    "lat": -32.8785,
+    "lng": 27.3982,
+    "address": "56 Alexandra Rd, King William's Town, 5601",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 43 123 8007",
+    "email": "kingwilliamstown@capitec.co.za"
+  },
+  {
+    "id": 178,
+    "type": "atm",
+    "name": "Bhisho",
+    "lat": -32.8485,
+    "lng": 27.4382,
+    "address": "22 Independence Ave, Bhisho, 5605",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 43 123 8008",
+    "email": "bhisho@capitec.co.za"
+  },
+  {
+    "id": 179,
+    "type": "branch",
+    "name": "Mthatha",
+    "lat": -31.5885,
+    "lng": 28.7882,
+    "address": "88 Nelson Mandela Dr, Mthatha, 5100",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 43 123 8009",
+    "email": "mthatha@capitec.co.za"
+  },
+  {
+    "id": 180,
+    "type": "branch",
+    "name": "Nelspruit Central",
+    "lat": -25.4685,
+    "lng": 30.9782,
+    "address": "44 Ferreira St, Nelspruit, 1200",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 13 123 9001",
+    "email": "nelspruit.central@capitec.co.za"
+  },
+  {
+    "id": 181,
+    "type": "atm",
+    "name": "Riverside Mall",
+    "lat": -25.4585,
+    "lng": 30.9882,
+    "address": "Riverside Mall, Nelspruit, 1201",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 13 123 9002",
+    "email": "riversidemall@capitec.co.za"
+  },
+  {
+    "id": 182,
+    "type": "branch",
+    "name": "White River",
+    "lat": -25.3285,
+    "lng": 31.0182,
+    "address": "22 Main Rd, White River, 1240",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 13 123 9003",
+    "email": "whiteriver@capitec.co.za"
+  },
+  {
+    "id": 183,
+    "type": "atm",
+    "name": "Malelane",
+    "lat": -25.4685,
+    "lng": 31.5182,
+    "address": "12 R40, Malelane, 1320",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 13 123 9004",
+    "email": "malelane@capitec.co.za"
+  },
+  {
+    "id": 184,
+    "type": "branch",
+    "name": "Barberton",
+    "lat": -25.7885,
+    "lng": 31.0582,
+    "address": "56 Pilgrim St, Barberton, 1300",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 13 123 9005",
+    "email": "barberton@capitec.co.za"
+  },
+  {
+    "id": 185,
+    "type": "atm",
+    "name": "Witrivier",
+    "lat": -25.3285,
+    "lng": 31.0282,
+    "address": "88 Main Rd, Witrivier, 1240",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 13 123 9006",
+    "email": "witrivier@capitec.co.za"
+  },
+  {
+    "id": 186,
+    "type": "branch",
+    "name": "Hazyview",
+    "lat": -25.0485,
+    "lng": 31.1282,
+    "address": "22 Main Rd, Hazyview, 1242",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 13 123 9007",
+    "email": "hazyview@capitec.co.za"
+  },
+  {
+    "id": 187,
+    "type": "branch",
+    "name": "Polokwane Central",
+    "lat": -23.8985,
+    "lng": 29.4482,
+    "address": "88 Church St, Polokwane, 0700",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Consulting",
+      "Loans"
+    ],
+    "phone": "+27 15 123 1001",
+    "email": "polokwane.central@capitec.co.za"
+  },
+  {
+    "id": 188,
+    "type": "atm",
+    "name": "Mall of the North",
+    "lat": -23.8785,
+    "lng": 29.4582,
+    "address": "Mall of the North, Polokwane, 0699",
+    "hours": "Mon-Sat: 9AM-6PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Consulting",
+      "Loans"
+    ],
+    "phone": "+27 15 123 1002",
+    "email": "mallofthenorth@capitec.co.za"
+  },
+  {
+    "id": 189,
+    "type": "branch",
+    "name": "Bendor",
+    "lat": -23.8885,
+    "lng": 29.4682,
+    "address": "22 Bendor St, Bendor, 0699",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Consulting",
+      "Loans"
+    ],
+    "phone": "+27 15 123 1003",
+    "email": "bendor@capitec.co.za"
+  },
+  {
+    "id": 190,
+    "type": "atm",
+    "name": "Tzaneen",
+    "lat": -23.8285,
+    "lng": 30.1582,
+    "address": "44 Agatha St, Tzaneen, 0850",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Consulting",
+      "Loans"
+    ],
+    "phone": "+27 15 123 1004",
+    "email": "tzaneen@capitec.co.za"
+  },
+  {
+    "id": 191,
+    "type": "branch",
+    "name": "Lephalale",
+    "lat": -23.6685,
+    "lng": 27.7482,
+    "address": "12 Nelson Mandela Dr, Lephalale, 0555",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Consulting",
+      "Loans"
+    ],
+    "phone": "+27 15 123 1005",
+    "email": "lephalale@capitec.co.za"
+  },
+  {
+    "id": 192,
+    "type": "atm",
+    "name": "Mokopane",
+    "lat": -24.1885,
+    "lng": 29.0182,
+    "address": "56 Thabo Mbeki Dr, Mokopane, 0600",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Consulting",
+      "Loans"
+    ],
+    "phone": "+27 15 123 1006",
+    "email": "mokopane@capitec.co.za"
+  },
+  {
+    "id": 193,
+    "type": "branch",
+    "name": "Louis Trichardt",
+    "lat": -23.0485,
+    "lng": 29.9082,
+    "address": "88 Songozwi Rd, Louis Trichardt, 0920",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Consulting",
+      "Loans"
+    ],
+    "phone": "+27 15 123 1007",
+    "email": "louistrichardt@capitec.co.za"
+  },
+  {
+    "id": 194,
+    "type": "branch",
+    "name": "Kimberley Central",
+    "lat": -28.7385,
+    "lng": 24.7582,
+    "address": "88 Main St, Kimberley, 8301",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-11:30AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 53 123 2001",
+    "email": "kimberley.central@capitec.co.za"
+  },
+  {
+    "id": 195,
+    "type": "atm",
+    "name": "Diamond Pavilion",
+    "lat": -28.7285,
+    "lng": 24.7682,
+    "address": "Diamond Pavilion Mall, Kimberley, 8301",
+    "hours": "Mon-Sat: 9AM-5PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 53 123 2002",
+    "email": "diamondpavilion@capitec.co.za"
+  },
+  {
+    "id": 196,
+    "type": "branch",
+    "name": "Galeshewe",
+    "lat": -28.7485,
+    "lng": 24.7782,
+    "address": "22 Phakamile St, Galeshewe, 8345",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-11:30AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 53 123 2003",
+    "email": "galeshewe@capitec.co.za"
+  },
+  {
+    "id": 197,
+    "type": "atm",
+    "name": "Upington",
+    "lat": -28.4585,
+    "lng": 21.2382,
+    "address": "44 Scott St, Upington, 8800",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-11:30AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 53 123 2004",
+    "email": "upington@capitec.co.za"
+  },
+  {
+    "id": 198,
+    "type": "branch",
+    "name": "Kuruman",
+    "lat": -27.4585,
+    "lng": 23.4482,
+    "address": "12 Main St, Kuruman, 8460",
+    "hours": "Mon-Fri: 8:30AM-4:30PM, Sat: 8:30AM-11:30AM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 53 123 2005",
+    "email": "kuruman@capitec.co.za"
+  },
+  {
+    "id": 199,
+    "type": "branch",
+    "name": "Rustenburg",
+    "lat": -25.6685,
+    "lng": 27.2482,
+    "address": "88 Church St, Rustenburg, 0300",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 14 123 3001",
+    "email": "rustenburg@capitec.co.za"
+  },
+  {
+    "id": 200,
+    "type": "atm",
+    "name": "Brits",
+    "lat": -25.6385,
+    "lng": 27.7782,
+    "address": "22 Walter St, Brits, 0250",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 14 123 3002",
+    "email": "brits@capitec.co.za"
+  },
+  {
+    "id": 201,
+    "type": "branch",
+    "name": "Warmbaths",
+    "lat": -24.8825,
+    "lng": 28.2982,
+    "address": "44 Church St, Bela-Bela, 0480",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 14 123 3003",
+    "email": "warmbaths@capitec.co.za"
+  },
+  {
+    "id": 202,
+    "type": "atm",
+    "name": "Vryheid",
+    "lat": -27.7685,
+    "lng": 30.7982,
+    "address": "12 Kerk St, Vryheid, 3100",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 14 123 3004",
+    "email": "vryheid@capitec.co.za"
+  },
+  {
+    "id": 203,
+    "type": "branch",
+    "name": "Standerton",
+    "lat": -26.9485,
+    "lng": 29.2482,
+    "address": "56 President St, Standerton, 2430",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 14 123 3005",
+    "email": "standerton@capitec.co.za"
+  },
+  {
+    "id": 204,
+    "type": "atm",
+    "name": "Secunda",
+    "lat": -26.5185,
+    "lng": 29.1982,
+    "address": "88 Trichardt Rd, Secunda, 2302",
+    "hours": "Mon-Fri: 9AM-5PM, Sat: 9AM-12PM",
+    "services": [
+      "ATM",
+      "Deposits",
+      "Withdrawals",
+      "Consulting"
+    ],
+    "phone": "+27 14 123 3006",
+    "email": "secunda@capitec.co.za"
+  }
+]

@@ -1,0 +1,688 @@
+{
+  "0": [
+    {
+      "hour": 0,
+      "busyPercent": 5
+    },
+    {
+      "hour": 1,
+      "busyPercent": 6
+    },
+    {
+      "hour": 2,
+      "busyPercent": 7
+    },
+    {
+      "hour": 3,
+      "busyPercent": 8
+    },
+    {
+      "hour": 4,
+      "busyPercent": 9
+    },
+    {
+      "hour": 5,
+      "busyPercent": 10
+    },
+    {
+      "hour": 6,
+      "busyPercent": 11
+    },
+    {
+      "hour": 7,
+      "busyPercent": 35
+    },
+    {
+      "hour": 8,
+      "busyPercent": 50
+    },
+    {
+      "hour": 9,
+      "busyPercent": 65
+    },
+    {
+      "hour": 10,
+      "busyPercent": 40
+    },
+    {
+      "hour": 11,
+      "busyPercent": 40
+    },
+    {
+      "hour": 12,
+      "busyPercent": 40
+    },
+    {
+      "hour": 13,
+      "busyPercent": 50
+    },
+    {
+      "hour": 14,
+      "busyPercent": 50
+    },
+    {
+      "hour": 15,
+      "busyPercent": 50
+    },
+    {
+      "hour": 16,
+      "busyPercent": 50
+    },
+    {
+      "hour": 17,
+      "busyPercent": 55
+    },
+    {
+      "hour": 18,
+      "busyPercent": 55
+    },
+    {
+      "hour": 19,
+      "busyPercent": 55
+    },
+    {
+      "hour": 20,
+      "busyPercent": 40
+    },
+    {
+      "hour": 21,
+      "busyPercent": 8
+    },
+    {
+      "hour": 22,
+      "busyPercent": 7
+    },
+    {
+      "hour": 23,
+      "busyPercent": 6
+    }
+  ],
+  "1": [
+    {
+      "hour": 0,
+      "busyPercent": 5
+    },
+    {
+      "hour": 1,
+      "busyPercent": 6
+    },
+    {
+      "hour": 2,
+      "busyPercent": 7
+    },
+    {
+      "hour": 3,
+      "busyPercent": 8
+    },
+    {
+      "hour": 4,
+      "busyPercent": 9
+    },
+    {
+      "hour": 5,
+      "busyPercent": 10
+    },
+    {
+      "hour": 6,
+      "busyPercent": 11
+    },
+    {
+      "hour": 7,
+      "busyPercent": 35
+    },
+    {
+      "hour": 8,
+      "busyPercent": 50
+    },
+    {
+      "hour": 9,
+      "busyPercent": 65
+    },
+    {
+      "hour": 10,
+      "busyPercent": 70
+    },
+    {
+      "hour": 11,
+      "busyPercent": 70
+    },
+    {
+      "hour": 12,
+      "busyPercent": 60
+    },
+    {
+      "hour": 13,
+      "busyPercent": 80
+    },
+    {
+      "hour": 14,
+      "busyPercent": 80
+    },
+    {
+      "hour": 15,
+      "busyPercent": 80
+    },
+    {
+      "hour": 16,
+      "busyPercent": 80
+    },
+    {
+      "hour": 17,
+      "busyPercent": 90
+    },
+    {
+      "hour": 18,
+      "busyPercent": 90
+    },
+    {
+      "hour": 19,
+      "busyPercent": 55
+    },
+    {
+      "hour": 20,
+      "busyPercent": 40
+    },
+    {
+      "hour": 21,
+      "busyPercent": 8
+    },
+    {
+      "hour": 22,
+      "busyPercent": 7
+    },
+    {
+      "hour": 23,
+      "busyPercent": 6
+    }
+  ],
+  "2": [
+    {
+      "hour": 0,
+      "busyPercent": 5
+    },
+    {
+      "hour": 1,
+      "busyPercent": 6
+    },
+    {
+      "hour": 2,
+      "busyPercent": 7
+    },
+    {
+      "hour": 3,
+      "busyPercent": 8
+    },
+    {
+      "hour": 4,
+      "busyPercent": 9
+    },
+    {
+      "hour": 5,
+      "busyPercent": 10
+    },
+    {
+      "hour": 6,
+      "busyPercent": 11
+    },
+    {
+      "hour": 7,
+      "busyPercent": 35
+    },
+    {
+      "hour": 8,
+      "busyPercent": 50
+    },
+    {
+      "hour": 9,
+      "busyPercent": 65
+    },
+    {
+      "hour": 10,
+      "busyPercent": 72
+    },
+    {
+      "hour": 11,
+      "busyPercent": 72
+    },
+    {
+      "hour": 12,
+      "busyPercent": 60
+    },
+    {
+      "hour": 13,
+      "busyPercent": 82
+    },
+    {
+      "hour": 14,
+      "busyPercent": 82
+    },
+    {
+      "hour": 15,
+      "busyPercent": 82
+    },
+    {
+      "hour": 16,
+      "busyPercent": 82
+    },
+    {
+      "hour": 17,
+      "busyPercent": 88
+    },
+    {
+      "hour": 18,
+      "busyPercent": 88
+    },
+    {
+      "hour": 19,
+      "busyPercent": 55
+    },
+    {
+      "hour": 20,
+      "busyPercent": 40
+    },
+    {
+      "hour": 21,
+      "busyPercent": 8
+    },
+    {
+      "hour": 22,
+      "busyPercent": 7
+    },
+    {
+      "hour": 23,
+      "busyPercent": 6
+    }
+  ],
+  "3": [
+    {
+      "hour": 0,
+      "busyPercent": 5
+    },
+    {
+      "hour": 1,
+      "busyPercent": 6
+    },
+    {
+      "hour": 2,
+      "busyPercent": 7
+    },
+    {
+      "hour": 3,
+      "busyPercent": 8
+    },
+    {
+      "hour": 4,
+      "busyPercent": 9
+    },
+    {
+      "hour": 5,
+      "busyPercent": 10
+    },
+    {
+      "hour": 6,
+      "busyPercent": 11
+    },
+    {
+      "hour": 7,
+      "busyPercent": 35
+    },
+    {
+      "hour": 8,
+      "busyPercent": 50
+    },
+    {
+      "hour": 9,
+      "busyPercent": 65
+    },
+    {
+      "hour": 10,
+      "busyPercent": 72
+    },
+    {
+      "hour": 11,
+      "busyPercent": 72
+    },
+    {
+      "hour": 12,
+      "busyPercent": 60
+    },
+    {
+      "hour": 13,
+      "busyPercent": 82
+    },
+    {
+      "hour": 14,
+      "busyPercent": 82
+    },
+    {
+      "hour": 15,
+      "busyPercent": 82
+    },
+    {
+      "hour": 16,
+      "busyPercent": 82
+    },
+    {
+      "hour": 17,
+      "busyPercent": 90
+    },
+    {
+      "hour": 18,
+      "busyPercent": 90
+    },
+    {
+      "hour": 19,
+      "busyPercent": 55
+    },
+    {
+      "hour": 20,
+      "busyPercent": 40
+    },
+    {
+      "hour": 21,
+      "busyPercent": 8
+    },
+    {
+      "hour": 22,
+      "busyPercent": 7
+    },
+    {
+      "hour": 23,
+      "busyPercent": 6
+    }
+  ],
+  "4": [
+    {
+      "hour": 0,
+      "busyPercent": 5
+    },
+    {
+      "hour": 1,
+      "busyPercent": 6
+    },
+    {
+      "hour": 2,
+      "busyPercent": 7
+    },
+    {
+      "hour": 3,
+      "busyPercent": 8
+    },
+    {
+      "hour": 4,
+      "busyPercent": 9
+    },
+    {
+      "hour": 5,
+      "busyPercent": 10
+    },
+    {
+      "hour": 6,
+      "busyPercent": 11
+    },
+    {
+      "hour": 7,
+      "busyPercent": 35
+    },
+    {
+      "hour": 8,
+      "busyPercent": 50
+    },
+    {
+      "hour": 9,
+      "busyPercent": 65
+    },
+    {
+      "hour": 10,
+      "busyPercent": 75
+    },
+    {
+      "hour": 11,
+      "busyPercent": 75
+    },
+    {
+      "hour": 12,
+      "busyPercent": 60
+    },
+    {
+      "hour": 13,
+      "busyPercent": 85
+    },
+    {
+      "hour": 14,
+      "busyPercent": 85
+    },
+    {
+      "hour": 15,
+      "busyPercent": 85
+    },
+    {
+      "hour": 16,
+      "busyPercent": 85
+    },
+    {
+      "hour": 17,
+      "busyPercent": 92
+    },
+    {
+      "hour": 18,
+      "busyPercent": 92
+    },
+    {
+      "hour": 19,
+      "busyPercent": 55
+    },
+    {
+      "hour": 20,
+      "busyPercent": 40
+    },
+    {
+      "hour": 21,
+      "busyPercent": 8
+    },
+    {
+      "hour": 22,
+      "busyPercent": 7
+    },
+    {
+      "hour": 23,
+      "busyPercent": 6
+    }
+  ],
+  "5": [
+    {
+      "hour": 0,
+      "busyPercent": 5
+    },
+    {
+      "hour": 1,
+      "busyPercent": 6
+    },
+    {
+      "hour": 2,
+      "busyPercent": 7
+    },
+    {
+      "hour": 3,
+      "busyPercent": 8
+    },
+    {
+      "hour": 4,
+      "busyPercent": 9
+    },
+    {
+      "hour": 5,
+      "busyPercent": 10
+    },
+    {
+      "hour": 6,
+      "busyPercent": 11
+    },
+    {
+      "hour": 7,
+      "busyPercent": 35
+    },
+    {
+      "hour": 8,
+      "busyPercent": 50
+    },
+    {
+      "hour": 9,
+      "busyPercent": 65
+    },
+    {
+      "hour": 10,
+      "busyPercent": 70
+    },
+    {
+      "hour": 11,
+      "busyPercent": 70
+    },
+    {
+      "hour": 12,
+      "busyPercent": 60
+    },
+    {
+      "hour": 13,
+      "busyPercent": 78
+    },
+    {
+      "hour": 14,
+      "busyPercent": 78
+    },
+    {
+      "hour": 15,
+      "busyPercent": 78
+    },
+    {
+      "hour": 16,
+      "busyPercent": 78
+    },
+    {
+      "hour": 17,
+      "busyPercent": 85
+    },
+    {
+      "hour": 18,
+      "busyPercent": 85
+    },
+    {
+      "hour": 19,
+      "busyPercent": 55
+    },
+    {
+      "hour": 20,
+      "busyPercent": 40
+    },
+    {
+      "hour": 21,
+      "busyPercent": 8
+    },
+    {
+      "hour": 22,
+      "busyPercent": 7
+    },
+    {
+      "hour": 23,
+      "busyPercent": 6
+    }
+  ],
+  "6": [
+    {
+      "hour": 0,
+      "busyPercent": 5
+    },
+    {
+      "hour": 1,
+      "busyPercent": 6
+    },
+    {
+      "hour": 2,
+      "busyPercent": 7
+    },
+    {
+      "hour": 3,
+      "busyPercent": 8
+    },
+    {
+      "hour": 4,
+      "busyPercent": 9
+    },
+    {
+      "hour": 5,
+      "busyPercent": 10
+    },
+    {
+      "hour": 6,
+      "busyPercent": 11
+    },
+    {
+      "hour": 7,
+      "busyPercent": 35
+    },
+    {
+      "hour": 8,
+      "busyPercent": 50
+    },
+    {
+      "hour": 9,
+      "busyPercent": 65
+    },
+    {
+      "hour": 10,
+      "busyPercent": 40
+    },
+    {
+      "hour": 11,
+      "busyPercent": 40
+    },
+    {
+      "hour": 12,
+      "busyPercent": 40
+    },
+    {
+      "hour": 13,
+      "busyPercent": 50
+    },
+    {
+      "hour": 14,
+      "busyPercent": 50
+    },
+    {
+      "hour": 15,
+      "busyPercent": 50
+    },
+    {
+      "hour": 16,
+      "busyPercent": 50
+    },
+    {
+      "hour": 17,
+      "busyPercent": 55
+    },
+    {
+      "hour": 18,
+      "busyPercent": 55
+    },
+    {
+      "hour": 19,
+      "busyPercent": 55
+    },
+    {
+      "hour": 20,
+      "busyPercent": 40
+    },
+    {
+      "hour": 21,
+      "busyPercent": 8
+    },
+    {
+      "hour": 22,
+      "busyPercent": 7
+    },
+    {
+      "hour": 23,
+      "busyPercent": 6
+    }
+  ]
+}
