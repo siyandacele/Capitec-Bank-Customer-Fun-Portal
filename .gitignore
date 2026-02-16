@@ -30,3 +30,9 @@ src/routeTree.gen.ts
 .env
 .env.local
 .env.production
+
+# Build artifacts
+*.tsbuildinfo
+vite.config.js
+vite.config.js.bak
+vite.config.d.ts
